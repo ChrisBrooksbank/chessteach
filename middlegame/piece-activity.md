@@ -93,6 +93,19 @@ A bishop whose own pawns are on the **opposite colour** — leaving the diagonal
 - **Positions with pawns on both flanks** — the bishop's long range covers both sides
 - **Endgames** (generally) — bishops coordinate better over distance
 
+```mermaid
+flowchart TD
+    Q[Knight or Bishop?] --> Pos{Is the position\nopen or closed?}
+    Pos -->|Closed / Blocked pawns| NF[Knight favoured]
+    Pos -->|Open / Clear diagonals| BF[Bishop favoured]
+    Q --> Pawns{Pawns on one\nflank or both?}
+    Pawns -->|One flank| NF2[Knight favoured\nBishop lacks scope]
+    Pawns -->|Both flanks| BF2[Bishop favoured\nLong range covers both sides]
+    Q --> Out{Are there secure\noutposts available?}
+    Out -->|Yes| NF3[Knight favoured\nDominates from outpost]
+    Out -->|No| BF3[Bishop favoured\nMore flexible]
+```
+
 ---
 
 ## Rook on the 7th Rank
@@ -142,6 +155,20 @@ Having more space means your pieces have more room to manoeuvre. A space advanta
 - **Find a pawn break** to open lines and equalise space
 - **Use the compact position** — your pieces are close together and can defend efficiently
 
+```mermaid
+flowchart TD
+    Space[Space Imbalance] --> Side{Which side\nare you on?}
+    Side -->|More space| MS[You have the\nspace advantage]
+    Side -->|Less space| LS[You are cramped]
+    MS --> M1[Do not rush]
+    MS --> M2[Avoid exchanges]
+    MS --> M3[Play on the wing\nwhere you have more room]
+    MS --> M4[Prepare a pawn break\nto open position decisively]
+    LS --> L1[Exchange pieces\nto relieve cramp]
+    LS --> L2[Find a pawn break\nto equalise space]
+    LS --> L3[Use compact defence\npieces protect each other]
+```
+
 ---
 
 ## Initiative & Tempo
@@ -174,6 +201,21 @@ Having more space means your pieces have more room to manoeuvre. A space advanta
 - When the opponent's piece is **passive** — let it stay in the way
 - When trading would **open lines for the opponent**
 
+```mermaid
+flowchart TD
+    Trade[Should I exchange\nthis piece?] --> Q1{Am I ahead\nin material?}
+    Q1 -->|Yes| Yes1[Exchange!\nSimplify to endgame]
+    Q1 -->|No| Q2{Is their piece\nmore active than mine?}
+    Q2 -->|Yes| Yes2[Exchange!\nEliminate their active piece]
+    Q2 -->|No| Q3{Am I cramped?}
+    Q3 -->|Yes| Yes3[Exchange!\nRelieve the cramp]
+    Q3 -->|No| Q4{Do I have the\ninitiative or space advantage?}
+    Q4 -->|Yes| No1[Avoid exchange\nKeep pieces for the attack]
+    Q4 -->|No| Q5{Is their piece passive?}
+    Q5 -->|Yes| No2[Avoid exchange\nLet it stay in the way]
+    Q5 -->|No| Eval[Evaluate the\nspecific imbalance]
+```
+
 ---
 
 ## Planning & Evaluation
@@ -194,6 +236,21 @@ Wilhelm Steinitz, the first World Champion, established that:
 3. **Determine candidate plans:** Based on the imbalances, what plans make sense?
 4. **Calculate concrete moves:** Check that your plan works tactically
 5. **Execute and reassess:** After each move, re-evaluate
+
+```mermaid
+flowchart TD
+    E[1. Evaluate the position] --> Factors{Consider all factors}
+    Factors --> Mat[Material]
+    Factors --> KS[King safety]
+    Factors --> PA[Piece activity]
+    Factors --> PSt[Pawn structure]
+    Factors --> Sp[Space]
+    Mat & KS & PA & PSt & Sp --> I[2. Identify imbalances\nWhat does each side have?]
+    I --> P[3. Determine candidate plans\nbased on the imbalances]
+    P --> C[4. Calculate concrete moves\nVerify tactics work]
+    C --> X[5. Execute and reassess\nRe-evaluate after each move]
+    X -->|Position changed| E
+```
 
 ---
 

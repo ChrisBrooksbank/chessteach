@@ -4,6 +4,38 @@ A comprehensive, interlinked knowledge base for learning and teaching chess — 
 
 ## Structure
 
+```mermaid
+mindmap
+  root((Chess Teaching Wiki))
+    Openings
+      Open Games
+      Semi-Open Games
+      Closed Games
+      Indian Defenses
+      Flank Openings
+    Tactics
+      Pins & Skewers
+      Forks
+      Mating Patterns
+      Sacrifices
+    Middlegame
+      Pawn Structures
+      Attacking the King
+      Positional Strategy
+    Endgames
+      King & Pawn
+      Rook Endings
+      Minor Piece Endings
+    Fundamentals
+      Development
+      King Safety
+      Core Principles
+    Famous Games
+      Romantic Era Classics
+      Modern Brilliancies
+      World Championship Highlights
+```
+
 | Section | Description |
 |---------|-------------|
 | [Openings](openings/index.md) | Complete guide to chess openings at every level |

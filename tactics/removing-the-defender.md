@@ -6,6 +6,21 @@
 
 ---
 
+## Choosing Your Method
+
+```mermaid
+flowchart TD
+    A["Target is defended — which method removes the defender?"] --> B{Can you capture the defender directly?}
+    B -->|Yes| C{Is capturing it worth the material?}
+    C -->|Yes| D["Method 1: Capture the Defender"]
+    C -->|No| E{Can you exchange it?}
+    B -->|No| F{Can you attack it to force it away?}
+    F -->|Yes| G["Method 2: Drive the Defender Away"]
+    F -->|No| E
+    E -->|Yes| H["Method 3: Exchange the Defender"]
+    E -->|No| I["Consider deflection or overloading instead"]
+```
+
 ## Three Methods
 
 ### 1. Capture the Defender

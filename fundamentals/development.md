@@ -24,6 +24,26 @@ Every move counts. If you waste a move (moving a developed piece back, making a 
 
 **A lead in development is temporary** — it must be exploited before the opponent catches up. This usually means **opening the position** (exchanging pawns, creating open lines) while you have more pieces in play.
 
+### Opening Move Decision Checklist
+
+Use this flowchart before each move in the opening:
+
+```mermaid
+flowchart TD
+    A["It's my turn — what should I do?"] --> B{"Is my king safe?\n(Can I castle?)"}
+    B -- "Not yet safe" --> C["Castle now"]
+    B -- "Already safe / not yet possible" --> D{"Do I have undeveloped\nminor pieces?"}
+    D -- "Yes" --> E{"Can I develop\nwith a threat?"}
+    E -- "Yes" --> F["Develop with tempo"]
+    E -- "No" --> G["Develop to a natural square\n(knight before bishop)"]
+    D -- "No" --> H{"Are my rooks\nconnected?"}
+    H -- "No" --> I["Improve rook placement\n(connect them on back rank)"]
+    H -- "Yes" --> J["Opening complete —\nenter middlegame planning"]
+    style C fill:#fdd,stroke:#c00
+    style F fill:#dfd,stroke:#0a0
+    style J fill:#ddf,stroke:#00c
+```
+
 ---
 
 ## Common Development Mistakes

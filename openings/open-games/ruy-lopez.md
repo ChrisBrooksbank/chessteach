@@ -6,6 +6,29 @@ The "Spanish Game" — one of the most important and deeply analysed openings in
 
 **See also:** [Italian Game](italian-game.md) | [Scotch Game](scotch-game.md) | [Middlegame — Pawn Structures](../../middlegame/pawn-structures.md)
 
+### Variation Tree
+
+```mermaid
+flowchart TD
+    ROOT["1.e4 e5 2.Nf3 Nc6 3.Bb5"]
+    ROOT -->|"3...Nf6"| BERLIN["Berlin Defense"]
+    ROOT -->|"3...a6 4.Ba4"| MORPHY["Morphy Defense"]
+    ROOT -->|"3...a6 4.Bxc6"| EXCHANGE["Exchange Variation"]
+
+    BERLIN --> WALL["4.O-O Nxe4 5.d4 Nd6\nBerlin Wall Endgame"]
+
+    MORPHY -->|"5.O-O Nxe4"| OPEN_VAR["Open Variation"]
+    MORPHY -->|"5.O-O Be7 6.Re1 b5 7.Bb3"| CLOSED_START["Closed / Marshall"]
+
+    CLOSED_START -->|"8.c3 d5 — Marshall Attack"| MARSHALL["Marshall Attack\nBlack sacrifices e5 for kingside attack"]
+    CLOSED_START -->|"8.c3 O-O 9.h3"| CLOSED_RUY["Closed Ruy Lopez"]
+    CLOSED_START -->|"8.a4 / 8.h3"| ANTI_M["Anti-Marshall Lines"]
+
+    CLOSED_RUY -->|"9...Na5"| CHIGORIN["Chigorin Variation"]
+    CLOSED_RUY -->|"9...Nb8"| BREYER["Breyer Variation"]
+    CLOSED_RUY -->|"9...Bb7"| ZAITSEV["Zaitsev Variation"]
+```
+
 ---
 
 ## Berlin Defense (3...Nf6)

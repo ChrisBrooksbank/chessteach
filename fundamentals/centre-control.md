@@ -37,6 +37,23 @@ The centre of the board (e4, d4, e5, d5) is the most important area in chess. Co
 
 Both approaches are valid and are used in modern chess. Openings like the [King's Indian](../openings/indian-defenses/kings-indian.md), [Grünfeld](../openings/indian-defenses/grunfeld.md), and [English](../openings/flank-openings/english.md) follow hypermodern principles.
 
+```mermaid
+flowchart TD
+    A["Centre Control"] --> B["Classical Approach"]
+    A --> C["Hypermodern Approach"]
+    B --> B1["Occupy with pawns\n(e4, d4)"]
+    B1 --> B2["Pieces support\nthe pawn centre"]
+    C --> C1["Let opponent\noccupy centre"]
+    C1 --> C2["Attack centre with\npieces & flank pawns"]
+    C2 --> C3["Fianchetto bishops\n(g6, Bg7)"]
+    C2 --> C4["Pawn breaks\n(...c5, ...f5)"]
+    B2 --> D["Result: Central\nspace advantage"]
+    C3 --> E["Result: Undermine\nopponent's centre"]
+    C4 --> E
+    style B fill:#e8f0fe,stroke:#4285f4
+    style C fill:#fef7e0,stroke:#f9ab00
+```
+
 ---
 
 **Next:** [King Safety & Castling](king-safety.md) | **Back to:** [Fundamentals Index](index.md)

@@ -67,6 +67,22 @@ White plays Rxd8+ Rxd8. Now White plays Re8+! Rxe8, and a second rook or queen d
 
 ---
 
+## Back Rank Vulnerability Checklist
+
+```mermaid
+flowchart TD
+    A["Is the back rank dangerous?"] --> B{Has the opponent castled?}
+    B -->|No| C["Back rank mate unlikely — focus elsewhere"]
+    B -->|Yes| D{Are the pawns in front of the king unmoved? — f7/g7/h7 or f2/g2/h2}
+    D -->|"Yes — no luft"| E{How many pieces defend the back rank?}
+    D -->|"No — luft exists"| F["Back rank is safe for now"]
+    E -->|"0"| G["CRITICAL — one rook/queen move may be mate"]
+    E -->|"1 piece"| H["Dangerous — can you deflect or overload that defender?"]
+    E -->|"2+ pieces"| I["Harder to exploit — look for other tactics"]
+    H -->|Yes| J["Combination! Deflect the defender, then mate"]
+    G --> J
+```
+
 ## Practical Advice
 
 - **Always be aware of your back rank** — scan for weakness before entering combinations

@@ -4,6 +4,30 @@ A chess game flows through three distinct phases, each with different priorities
 
 **See also:** [Openings Index](../openings/index.md) | [Middlegame Index](../middlegame/index.md) | [Endgames Index](../endgames/index.md)
 
+```mermaid
+flowchart LR
+    subgraph OP["Opening (moves 1–15)"]
+        O1["Develop pieces"]
+        O2["Control centre"]
+        O3["Castle"]
+    end
+    subgraph MG["Middlegame (moves 15–35)"]
+        M1["Execute plans"]
+        M2["Attack weaknesses"]
+        M3["Tactical combinations"]
+    end
+    subgraph EG["Endgame (few pieces left)"]
+        E1["Activate king"]
+        E2["Create passed pawns"]
+        E3["Convert advantage"]
+    end
+    OP -- "Development complete\nPieces active" --> MG
+    MG -- "Queens traded\nMaterial simplified" --> EG
+    style OP fill:#e8f0fe,stroke:#4285f4
+    style MG fill:#fef7e0,stroke:#f9ab00
+    style EG fill:#e6f4ea,stroke:#34a853
+```
+
 ---
 
 ## Opening (Moves 1–10/15)

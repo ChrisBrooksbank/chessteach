@@ -22,6 +22,25 @@ White can exploit whichever rook is more vulnerable.
 
 ---
 
+### Interference Types
+
+```mermaid
+flowchart TD
+    A[Interference] --> B["Basic Interference
+    Block the line between
+    two cooperating pieces"]
+    A --> C["Nowotny
+    Sacrifice on the INTERSECTION of
+    a rank/file AND a diagonal"]
+    A --> D["Plachutta
+    Sacrifice on the INTERSECTION of
+    two lines of the SAME type
+    (both files or both diagonals)"]
+    C --> E["Whichever piece captures,
+    the OTHER defensive line breaks"]
+    D --> E
+```
+
 ## Nowotny Interference
 
 A Nowotny is a specific interference theme where a piece is sacrificed on the intersection of two enemy defensive lines (a rank/file and a diagonal). The sacrifice cuts both lines simultaneously.

@@ -19,6 +19,22 @@ The most-taught game in chess history — and for good reason. Morphy demonstrat
 
 ---
 
+## Game Flow
+
+```mermaid
+graph TD
+    A["Moves 1-6: Philidor Defense<br/>Black wastes time with ...Bg4"] --> B["Moves 7-12: Development Gap Widens<br/>White: all pieces developed, castled<br/>Black: pieces stuck on back rank"]
+    B --> C["13.Rxd7! — Exchange sacrifice<br/>Opens the d-file highway"]
+    C --> D["14-15: Doubling on the d-file<br/>White dominates the open line"]
+    D --> E["16.Qb8+!! — Queen sacrifice<br/>Deflects knight from d8"]
+    E --> F["17.Rd8# — Back rank mate<br/>A textbook Opera Mate"]
+
+    style B fill:#2980b9,color:#fff
+    style C fill:#e67e22,color:#fff
+    style E fill:#c0392b,color:#fff
+    style F fill:#27ae60,color:#fff
+```
+
 ## Key Moments
 
 ### Moves 3–6: Development advantage

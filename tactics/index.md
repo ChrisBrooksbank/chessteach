@@ -2,6 +2,37 @@
 
 Tactics are the lifeblood of chess — short sequences of moves that exploit specific features of a position to gain material, deliver checkmate, or gain a decisive advantage. Studying tactics builds pattern recognition, the most important skill for improvement.
 
+## How Tactics Relate to Each Other
+
+```mermaid
+mindmap
+  root((Chess Tactics))
+    Line Tactics
+      Pins
+      Skewers
+      Discovered Attacks
+        Double Checks
+        Windmill
+    Multi-target Attacks
+      Forks
+    Defensive Disruption
+      Deflection & Decoy
+      Overloaded Pieces
+      Removing the Defender
+      Interference
+    King Safety Exploits
+      Back Rank Tactics
+      Mating Patterns
+    Positional Tactics
+      Trapped Pieces
+      Zwischenzug
+    Material Tactics
+      Sacrifices
+        Tactical
+        Positional
+        Exchange
+```
+
 ## Tactical Motifs
 
 - [Pins](pins.md) — absolute and relative pins

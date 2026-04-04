@@ -14,6 +14,20 @@ In a double check, the opponent **can only move the king**. They cannot:
 
 The king **must** move. This makes double checks extremely powerful — they can force the king into positions where checkmate follows.
 
+```mermaid
+flowchart TD
+    A[You're in check!] --> B{How many pieces are checking?}
+    B -->|One| C{Can you block?}
+    C -->|Yes| D[Block the check]
+    C -->|No| E{Can you capture the checker?}
+    E -->|Yes| F[Capture it]
+    E -->|No| G[Move the king]
+    B -->|Two — DOUBLE CHECK| H["ONLY option: move the king
+    Cannot block (two lines)
+    Cannot capture (two pieces)"]
+    H --> I[King is forced to a specific square — often into mate]
+```
+
 ---
 
 ## Example

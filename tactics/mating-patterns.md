@@ -160,6 +160,35 @@ A rook delivers mate on the file or rank, with a bishop sealing off the escape d
 
 ---
 
+## Pattern Families
+
+```mermaid
+mindmap
+  root((Mating Patterns))
+    Rook + Knight Mates
+      Arabian Mate
+      Anastasia's Mate
+      Hook Mate
+      Smothered Mate — Philidor's Legacy
+    Rook + Bishop Mates
+      Opera Mate
+      Greco's Mate
+      Philidor's Mate
+    Back Rank Family
+      Back Rank Mate
+      Opera Mate
+      Epaulette Mate
+    Bishop Pair Mates
+      Boden's Mate
+      Blackburne's Mate
+    Queen Mates
+      Scholar's Mate
+      Fool's Mate
+      Lolli's Mate
+    Knight + Bishop Mates
+      Legal's Mate
+```
+
 ## Summary Table
 
 | Pattern | Key Pieces | Defining Feature |

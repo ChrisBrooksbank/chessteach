@@ -67,6 +67,25 @@ The most spectacular instances of these tactics involve queen sacrifices:
 
 ---
 
+## Thought Process: Deflection or Decoy?
+
+```mermaid
+flowchart TD
+    A[Opponent's piece is preventing my tactic] --> B{WHERE is the problem?}
+    B -->|"The piece is ON a good square
+    (guarding something)"| C["DEFLECTION
+    Force it AWAY from that square"]
+    B -->|"The piece is NOT on the square
+    I need it on"| D["DECOY
+    Lure it TO a specific square"]
+    C --> E["Attack the defender directly
+    Force it to abandon its duty"]
+    D --> F["Sacrifice on the target square
+    Opponent captures — now it's in position"]
+    E --> G["The guarded target is now vulnerable"]
+    F --> H["Follow up with fork / pin / skewer / mate"]
+```
+
 ## Practical Advice
 
 - Ask: "What is this piece defending? Can I force it away?"

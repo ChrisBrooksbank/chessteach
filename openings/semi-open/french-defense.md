@@ -6,6 +6,29 @@ A solid, strategic opening where Black prepares ...d5 to challenge White's centr
 
 **See also:** [Caro-Kann](caro-kann.md) | [Sicilian](sicilian-defense.md) | [Middlegame — Pawn Structures](../../middlegame/pawn-structures.md)
 
+### Variation Tree
+
+```mermaid
+flowchart TD
+    ROOT["1.e4 e6 2.d4 d5"]
+    ROOT -->|"3.Nc3"| NC3["3.Nc3"]
+    ROOT -->|"3.Nd2"| TARRASCH["Tarrasch Variation"]
+    ROOT -->|"3.e5"| ADVANCE["Advance Variation"]
+    ROOT -->|"3.exd5"| EXCHANGE["Exchange Variation"]
+
+    NC3 -->|"3...Bb4"| WINAWER["Winawer Variation"]
+    NC3 -->|"3...Nf6"| NF6["3...Nf6"]
+
+    WINAWER --> WIN_MAIN["4.e5 c5 5.a3 Bxc3+ 6.bxc3"]
+    WIN_MAIN -->|"7.Qg4 Qc7"| POISONED["Poisoned Pawn Line"]
+    WIN_MAIN -->|"7.Qg4 O-O"| GIVE_PAWNS["Giving up g7/h7 pawns"]
+
+    NF6 -->|"4.Bg5"| CLASSICAL["Classical Variation"]
+    NF6 -->|"4.e5"| STEINITZ["Steinitz Variation"]
+    CLASSICAL -->|"4...Bb4"| MCCUTCHEON["McCutcheon Variation"]
+    CLASSICAL -->|"4...Be7"| CLASS_MAIN["Classical Main Line"]
+```
+
 ---
 
 ## The French Pawn Chain

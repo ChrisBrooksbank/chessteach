@@ -23,6 +23,23 @@ Widely considered Kasparov's greatest game — and one of the finest attacking g
 
 ---
 
+## Game Flow
+
+```mermaid
+graph TD
+    A["Moves 1-12: Pirc Defense<br/>Opposite-side castling,<br/>mutual attacking chances"] --> B["Moves 13-23: Build-Up<br/>Kasparov manoeuvres for the attack"]
+    B --> C["24.Rxd4!! — Rook sacrifice<br/>Tears open Black's position"]
+    C --> D["25.Re7+! Kb6 26.Qxd4+ Kxa5<br/>King hunt begins — King dragged up the board"]
+    D --> E["27.b4+! Ka4<br/>King reaches a4 — deep in enemy territory"]
+    E --> F["28.Qc3! — Quiet move<br/>Creates unstoppable threats"]
+    F --> G["Moves 29-44: The Pursuit<br/>Black king wanders to d1<br/>before White finishes the job"]
+
+    style C fill:#c0392b,color:#fff
+    style D fill:#e67e22,color:#fff
+    style E fill:#e67e22,color:#fff
+    style F fill:#2980b9,color:#fff
+```
+
 ## Key Moments
 
 ### 24.Rxd4!! — The rook sacrifice

@@ -30,6 +30,23 @@ The bishop can move, but then White captures the queen.
 
 ---
 
+## Identifying a Pin
+
+```mermaid
+flowchart TD
+    A[Look at opponent's pieces] --> B{Are two pieces aligned on a rank, file, or diagonal?}
+    B -->|No| C[No pin possible on this line]
+    B -->|Yes| D{Can your long-range piece attack along that line?}
+    D -->|No| E[Reposition — get a bishop, rook, or queen onto that line]
+    D -->|Yes| F{Is the rear piece the king?}
+    F -->|Yes| G[Absolute Pin — front piece CANNOT legally move]
+    F -->|No| H{Is the rear piece more valuable than the front piece?}
+    H -->|Yes| I[Relative Pin — front piece SHOULDN'T move]
+    H -->|No| J[Not a useful pin]
+    G --> K[Exploit: pile up on the pinned piece]
+    I --> K
+```
+
 ## Exploiting Pins
 
 1. **Pile up on the pinned piece:** Attack it with additional pieces. Since it can't move (or shouldn't), it becomes a target.
@@ -46,6 +63,19 @@ White plays Nd5 — now the knight is attacked by two pieces (Bg5 and Nd5) and c
 ---
 
 ## Breaking Pins
+
+```mermaid
+flowchart TD
+    A[You're pinned!] --> B{Is it an absolute pin — king behind?}
+    B -->|Yes| C{Can you block the pin line?}
+    B -->|No| D{Is moving the pinned piece worth losing the rear piece?}
+    C -->|Yes| E[Interpose a piece between pinned piece and king]
+    C -->|No| F{Can you move the king off the line?}
+    F -->|Yes| G[Move the king — the pin breaks]
+    F -->|No| H[Counter-attack the pinning piece]
+    D -->|Yes| I[Move it — accept the exchange]
+    D -->|No| J[Treat it like an absolute pin — use the same defences]
+```
 
 1. **Block the pin:** Interpose a piece between the pinned piece and the piece behind it.
 2. **Move the piece behind:** Remove the valuable piece from the line of the pin.

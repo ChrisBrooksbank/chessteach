@@ -10,6 +10,14 @@ Queen endgames are complex and often decisive — the queen's power dominates th
 
 A critical theoretical endgame. The result depends on **which pawn** and **where the kings are**.
 
+```mermaid
+flowchart TD
+    Start["Queen vs Pawn\non the 7th rank"] --> Which{"Which pawn?"}
+    Which -->|"c, d, e, or f pawn\n(central/bishop)"| Win["Queen WINS\nForce king in front of pawn,\nbring own king closer, repeat"]
+    Which -->|"a or h pawn\n(rook pawn)"| RookPawn["Usually DRAWN\nKing goes to corner →\nstalemate defence"]
+    Which -->|"b or g pawn\n(knight pawn)"| KnightPawn["Usually DRAWN\nKing shuttles between\ncorner and pawn square"]
+```
+
 ### Central or Bishop Pawn (c, d, e, f pawns)
 
 **The queen wins** by a systematic method:

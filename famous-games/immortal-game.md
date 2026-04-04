@@ -20,6 +20,22 @@ The most famous attacking game in chess history. Anderssen sacrificed both rooks
 
 ---
 
+## Game Flow
+
+```mermaid
+graph TD
+    A["Moves 1-6: King's Gambit Accepted<br/>Open tactical battle begins"] --> B["Moves 7-16: Wild Middlegame<br/>White builds initiative,<br/>Black grabs material"]
+    B --> C["18.Bd6! — First rook ignored<br/>Initiative over material"]
+    C --> D["19.e5! — Second rook ignored<br/>Both rooks en prise"]
+    D --> E["22.Qf6+! — Queen sacrifice<br/>Sets up the final blow"]
+    E --> F["23.Be7# — Checkmate<br/>Two minor pieces deliver mate<br/>while both rooks stand idle"]
+
+    style C fill:#e67e22,color:#fff
+    style D fill:#e67e22,color:#fff
+    style E fill:#c0392b,color:#fff
+    style F fill:#27ae60,color:#fff
+```
+
 ## Key Moments
 
 ### 18.Bd6! — Ignoring the rook

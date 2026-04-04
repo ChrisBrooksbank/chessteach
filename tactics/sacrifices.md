@@ -92,7 +92,46 @@ The most spectacular sacrifices. A queen sacrifice is usually the culmination of
 
 ---
 
+## Sacrifice Classification
+
+```mermaid
+flowchart TD
+    A[Sacrifice] --> B["Tactical Sacrifice
+    Concrete — fully calculated"]
+    A --> C["Positional Sacrifice
+    Strategic — based on judgement"]
+    B --> D["Pawn sacrifice
+    (gambit, opening initiative)"]
+    B --> E["Piece sacrifice
+    (Greek Gift Bxh7+, knight sac)"]
+    B --> F["Exchange sacrifice
+    (rook for minor piece)"]
+    B --> G["Queen sacrifice
+    (spectacular forcing moves)"]
+    C --> H["Exchange sacrifice
+    (Petrosian-style, control key squares)"]
+    C --> I["Pawn sacrifice
+    (long-term activity, open lines)"]
+    C --> J["Piece sacrifice
+    (destroy pawn structure, expose king)"]
+```
+
 ## When to Sacrifice
+
+```mermaid
+flowchart TD
+    A["Should I sacrifice?"] --> B{Can you calculate a forced sequence to mate or material recovery?}
+    B -->|Yes| C["Tactical sacrifice — DO IT if the calculation is sound"]
+    B -->|No| D{Do you have 3+ pieces aimed at the opponent's king?}
+    D -->|Yes| E{Is the king's pawn cover weakened?}
+    E -->|Yes| F["Strong candidate — calculate the main lines"]
+    E -->|No| G{Will the sacrifice weaken the pawn cover?}
+    G -->|Yes| F
+    G -->|No| H["Probably not worth it"]
+    D -->|No| I{Will your remaining pieces dominate after the sacrifice?}
+    I -->|Yes| J["Positional sacrifice — consider it if alternatives are worse"]
+    I -->|No| H
+```
 
 1. **When you can calculate the outcome:** Tactical sacrifices require concrete calculation
 2. **When you have enough attackers:** Generally 3+ pieces should participate in an attack

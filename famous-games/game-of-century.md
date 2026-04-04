@@ -25,6 +25,22 @@ A 13-year-old Bobby Fischer defeats International Master Donald Byrne with a stu
 
 ---
 
+## Game Flow
+
+```mermaid
+graph TD
+    A["Moves 1-10: Grunfeld Defense<br/>Standard opening play"] --> B["11...Na4! — Knight invasion<br/>Fischer begins the combination"]
+    B --> C["13...Nxe4! — Pawn grab with purpose<br/>Tactical complications favour Black"]
+    C --> D["17...Be6!! — The Queen Sacrifice<br/>Fischer gives up the queen<br/>for a devastating attack"]
+    D --> E["Moves 18-23: Windmill Sequence<br/>Discovered checks pick up<br/>material with every move"]
+    E --> F["Moves 24-41: The Cleanup<br/>Fischer's minor pieces dominate;<br/>Byrne's queen is helpless"]
+    F --> G["41...Rc2# — Checkmate"]
+
+    style D fill:#c0392b,color:#fff
+    style E fill:#e67e22,color:#fff
+    style G fill:#27ae60,color:#fff
+```
+
 ## Key Moments
 
 ### 11...Na4! — The knight invasion

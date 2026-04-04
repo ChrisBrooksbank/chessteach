@@ -15,6 +15,27 @@ If White moves Nd4 elsewhere, the Bc1 is "discovered" — it now attacks the Qg5
 
 The key: the moving piece can go anywhere — including making its own threat. This means you get **two threats at once**: the discovered attack plus whatever the moving piece does.
 
+### Escalation Hierarchy
+
+Discovered attacks form a hierarchy of increasing power:
+
+```mermaid
+flowchart TD
+    A["Discovered Attack
+    Moving piece creates its own threat;
+    unmasked piece attacks a target"] --> B["Discovered Check
+    Unmasked piece gives CHECK;
+    moving piece can do anything"]
+    B --> C["Double Check
+    BOTH pieces give check;
+    king MUST move"]
+    B --> D["Windmill
+    Repeated discovered checks;
+    moving piece harvests material each cycle"]
+    C --> E["Often leads to forced checkmate"]
+    D --> F["Can win nearly all enemy material"]
+```
+
 ---
 
 ## Discovered Check

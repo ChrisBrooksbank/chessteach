@@ -4,6 +4,27 @@ Pawns are the "soul of chess" (Philidor). The pawn structure — the arrangement
 
 **See also:** [Piece Activity](piece-activity.md) | [Attacking the King](attacking-the-king.md) | [Endgames — King & Pawn](../endgames/king-pawn-endings.md) | [Fundamentals — Pawn Basics](../fundamentals/pawn-structure-basics.md)
 
+## Pawn Structure Types at a Glance
+
+```mermaid
+flowchart LR
+    PS[Pawn Structures] --> Static[Static Weaknesses]
+    PS --> Dynamic[Dynamic Structures]
+    PS --> Spatial[Spatial Concepts]
+
+    Static --> IQP[Isolated Queen Pawn]
+    Static --> Backward[Backward Pawn]
+    Static --> Doubled[Doubled Pawns]
+
+    Dynamic --> Hanging[Hanging Pawns]
+    Dynamic --> Chains[Pawn Chains]
+    Dynamic --> Breaks[Pawn Breaks]
+
+    Spatial --> Islands[Pawn Islands]
+    Spatial --> Majority[Pawn Majority]
+    Spatial --> Minority[Minority Attack]
+```
+
 ---
 
 ## Isolated Queen Pawn (IQP)
@@ -31,6 +52,17 @@ A pawn on d4 (or d5) with no friendly pawns on the c- or e-files.
 - **With the IQP:** Play actively! Attack before the endgame. Use the open files and active pieces. Avoid exchanges that lead to a pure endgame where the IQP is weak.
 - **Against the IQP:** Blockade the pawn on d5. Exchange pieces to reach an endgame. Target the pawn with heavy pieces.
 
+```mermaid
+flowchart TD
+    Start[You have an IQP] --> Q1{Is it the middlegame\nwith pieces on the board?}
+    Q1 -->|Yes| Attack[Play actively!\nUse open c & e files\nAim pieces at the king]
+    Q1 -->|No — heading\nto endgame| Danger[IQP becomes a liability]
+    Attack --> Q2{Can you avoid\nsimplification?}
+    Q2 -->|Yes| Keep[Keep pieces on,\nmaintain initiative]
+    Q2 -->|No| Convert[Try to convert\nactivity into material\nbefore endgame]
+    Danger --> Defend[Defend the pawn\nwith rooks, seek\ncounterplay]
+```
+
 ---
 
 ## Hanging Pawns
@@ -51,6 +83,19 @@ Two connected pawns on the 4th rank (typically c4 and d4) without support from o
 - **With hanging pawns:** Maintain the tension. Look for the right moment to advance one pawn (d5 or c5) to break open the position.
 - **Against hanging pawns:** Attack them! Put pressure on both pawns, forcing a decision. After one advances, target the remaining isolated pawn.
 
+```mermaid
+flowchart TD
+    HP[Hanging Pawns\nc4 + d4] --> Side{Which side\nare you?}
+    Side -->|With| Maintain[Maintain tension\nKeep both pawns on 4th rank]
+    Side -->|Against| Pressure[Attack both pawns\nForce one to advance]
+    Maintain --> Timing{Right moment\nto advance?}
+    Timing -->|d5 break| Open1[Open the position\nUse piece activity]
+    Timing -->|c5 break| Open2[Open c-file\nSeize initiative]
+    Timing -->|Not yet| Maintain
+    Pressure --> Advance[Opponent advances\none pawn]
+    Advance --> Target[Target the remaining\nisolated pawn]
+```
+
 ---
 
 ## Pawn Chains
@@ -65,6 +110,14 @@ Black chain: d5-e6 (base: e6)
 
 ### Key Principle
 The base (rear pawn) is the weakest link. Black should play ...c5 to attack d4. White should play f4-f5 to attack e6.
+
+```mermaid
+flowchart LR
+    WC[White chain\nd4-e5] -->|Base| D4[d4 pawn]
+    BC[Black chain\nd5-e6] -->|Base| E6[e6 pawn]
+    D4 -->|Black attacks\nwith ...c5| Undermine1[Undermine\nWhite's chain]
+    E6 -->|White attacks\nwith f4-f5| Undermine2[Undermine\nBlack's chain]
+```
 
 ### Where It Arises
 - [French Defense](../openings/semi-open/french-defense.md) — the classic pawn chain opening

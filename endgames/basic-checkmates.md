@@ -4,6 +4,25 @@ Every chess player must know how to deliver checkmate with basic material advant
 
 **See also:** [Tactics — Mating Patterns](../tactics/mating-patterns.md) | [Fundamentals — Piece Values](../fundamentals/piece-values.md)
 
+```mermaid
+flowchart TD
+    Start["What material do you have?"] --> QCheck{"Queen?"}
+    QCheck -->|Yes| KQ["K+Q vs K\n~10 moves"]
+    QCheck -->|No| RCheck{"Rook?"}
+    RCheck -->|Yes| KR["K+R vs K\n~16 moves"]
+    RCheck -->|No| TwoBishops{"Two Bishops?"}
+    TwoBishops -->|Yes| KBB["K+2B vs K\n~20 moves"]
+    TwoBishops -->|No| BNCheck{"Bishop + Knight?"}
+    BNCheck -->|Yes| KBN["K+B+N vs K\n~33 moves\n(correct corner only)"]
+    BNCheck -->|No| Draw["Insufficient material\nAutomatic draw"]
+
+    style KQ fill:#4a9,stroke:#333,color:#fff
+    style KR fill:#5a8,stroke:#333,color:#fff
+    style KBB fill:#69b,stroke:#333,color:#fff
+    style KBN fill:#c74,stroke:#333,color:#fff
+    style Draw fill:#888,stroke:#333,color:#fff
+```
+
 ---
 
 ## King + Queen vs King
@@ -76,6 +95,15 @@ The most difficult basic mate. Checkmate can only occur in the corner **the same
 2. If the king is in the "wrong" corner (opposite colour from bishop), **drive it to the correct corner**
 3. Use the bishop to control diagonals, the knight to control key squares, the king to restrict retreat
 4. The knight performs a characteristic manoeuvre to herd the king across
+
+```mermaid
+flowchart TD
+    A["Force lone king to the edge"] --> B{"Is the king in the\ncorrect corner?\n(bishop's colour)"}
+    B -->|Yes| E["Close in with K+B+N\nand deliver mate"]
+    B -->|No| C["Drive king along the edge\ntoward the correct corner"]
+    C --> D["Use bishop on diagonals +\nknight W-manoeuvre to\nherd king across"]
+    D --> E
+```
 
 ### Important
 

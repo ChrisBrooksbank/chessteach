@@ -18,6 +18,22 @@ Kxe8 17.Qe6+ Kd8 18.Bf7 Qc7 19.Qe8# (or Kasparov resigned here)
 
 ---
 
+## Game Flow
+
+```mermaid
+graph TD
+    A["Moves 1-6: Caro-Kann Defense<br/>Standard theoretical play"] --> B["7...h6?! — Dubious deviation<br/>Weakens kingside"]
+    B --> C["8.Nxe6! — Knight sacrifice<br/>Rips open the position"]
+    C --> D["9.Bg6+ Ke7 — King stranded<br/>Cannot castle, exposed in centre"]
+    D --> E["Moves 11-14: Rapid collapse<br/>Kasparov cannot untangle"]
+    E --> F["19.Qe8# — Resignation/Mate<br/>Deep Blue wins match 3.5-2.5"]
+
+    style B fill:#e67e22,color:#fff
+    style C fill:#c0392b,color:#fff
+    style D fill:#c0392b,color:#fff
+    style F fill:#27ae60,color:#fff
+```
+
 ## Key Moments
 
 ### 7...h6?! — A dubious move
@@ -44,6 +60,24 @@ Kasparov, under enormous psychological pressure after the controversial Game 2 (
 ---
 
 ## Historical Context
+
+```mermaid
+graph LR
+    G1["Game 1<br/>Kasparov wins"] --> G2["Game 2<br/>Deep Blue wins<br/>(controversial)"]
+    G2 --> G3["Game 3<br/>Draw"]
+    G3 --> G4["Game 4<br/>Draw"]
+    G4 --> G5["Game 5<br/>Draw"]
+    G5 --> G6["Game 6<br/>Deep Blue wins<br/>(decisive)"]
+    G6 --> Result["Final: Deep Blue 3.5 - 2.5"]
+
+    style G1 fill:#27ae60,color:#fff
+    style G2 fill:#c0392b,color:#fff
+    style G3 fill:#7f8c8d,color:#fff
+    style G4 fill:#7f8c8d,color:#fff
+    style G5 fill:#7f8c8d,color:#fff
+    style G6 fill:#c0392b,color:#fff
+    style Result fill:#8e44ad,color:#fff
+```
 
 - This was the **decisive game** — the match score was 2.5–2.5 going in
 - Deep Blue won the match **3.5–2.5**

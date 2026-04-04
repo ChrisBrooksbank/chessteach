@@ -35,6 +35,25 @@ Using the chess clock wisely is a skill that separates good players from great o
 - **Play solid moves** — avoid sharp tactics
 - **Use increment wisely** — the 30-second buffer can save you
 
+### How Much Time Should I Spend on This Move?
+
+```mermaid
+flowchart TD
+    A["It's my turn"] --> B{"Is the move\nforced or obvious?\n(recapture, only legal move)"}
+    B -- "Yes" --> C["Play quickly\n(< 30 seconds)"]
+    B -- "No" --> D{"Am I in a\ncritical position?\n(tactics, key decision)"}
+    D -- "Yes" --> E["Invest serious time\n(3–5 minutes)"]
+    D -- "No" --> F{"Am I low\non time?"}
+    F -- "Yes" --> G["Play a solid,\nsafe move quickly"]
+    F -- "No" --> H["Think 1–2 minutes,\nthen decide"]
+    E --> I{"Still unsure?"}
+    I -- "Yes" --> J["Make the best\navailable decision\nand move on"]
+    I -- "No" --> K["Play the move"]
+    style C fill:#dfd,stroke:#0a0
+    style E fill:#fef7e0,stroke:#f9ab00
+    style G fill:#fdd,stroke:#c00
+```
+
 ---
 
 **Back to:** [Fundamentals Index](index.md)

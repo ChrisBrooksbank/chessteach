@@ -37,6 +37,26 @@ King is slightly less safe (a-pawn unprotected, king more exposed on c1/c8), but
 3. **Castle early** — an exposed king in the centre invites attacks
 4. **Opposite-side castling** leads to sharp, tactical play where both sides storm pawns toward the enemy king
 
+### Should I Castle? Which Side?
+
+```mermaid
+flowchart TD
+    A["Should I castle?"] --> B{"Is the centre\nopen or likely\nto open?"}
+    B -- "Yes" --> C["Castle soon —\nking is unsafe in the centre"]
+    B -- "No, centre is closed" --> D{"Am I ahead\nin development?"}
+    D -- "Yes" --> E["Consider delaying —\nbut don't neglect it"]
+    D -- "No" --> C
+    C --> F{"Which side?"}
+    F --> G{"Is the kingside\npawn structure intact?\n(f, g, h pawns unmoved)"}
+    G -- "Yes" --> H["Kingside castling\n(O-O) — usually safest"]
+    G -- "No / weakened" --> I{"Is queenside\nclear of pieces?"}
+    I -- "Yes" --> J["Queenside castling\n(O-O-O) — rook hits d-file"]
+    I -- "No" --> K["Clear pieces first,\nthen castle ASAP"]
+    style C fill:#fdd,stroke:#c00
+    style H fill:#dfd,stroke:#0a0
+    style J fill:#ddf,stroke:#00c
+```
+
 ---
 
 ## Common Threats to the Castled King

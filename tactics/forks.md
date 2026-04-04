@@ -46,6 +46,22 @@ Rooks can fork along ranks and files, though this is less common since rooks are
 
 Forks rarely appear by accident. You create them by:
 
+```mermaid
+flowchart LR
+    A[Spot a potential fork square] --> B{Is the fork square accessible?}
+    B -->|Yes| C{Are the target pieces in position?}
+    B -->|No| D[Clear the path — exchange or remove blockers]
+    C -->|Yes| E[Play the fork!]
+    C -->|No| F[Drive pieces to forkable squares]
+    F --> F1[Use checks to force king movement]
+    F --> F2[Use deflection to lure pieces]
+    F --> F3[Use captures to force recaptures on target squares]
+    D --> B
+    F1 --> E
+    F2 --> E
+    F3 --> E
+```
+
 1. **Forcing moves:** Use checks, captures, or threats to drive pieces to forkable squares
 2. **Exchanges:** Trade off defenders that prevent the fork
 3. **Deflection:** Lure a piece to a vulnerable square — see [Deflection & Decoy](deflection-decoy.md)

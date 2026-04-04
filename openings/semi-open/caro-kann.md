@@ -6,6 +6,27 @@ Solid and reliable. Black prepares ...d5 to challenge White's centre while keepi
 
 **See also:** [French Defense](french-defense.md) | [Scandinavian](scandinavian.md) | [Middlegame — Pawn Structures](../../middlegame/pawn-structures.md)
 
+### Variation Tree
+
+```mermaid
+flowchart TD
+    ROOT["1.e4 c6 2.d4 d5"]
+    ROOT -->|"3.Nc3 dxe4 4.Nxe4"| NE4["4.Nxe4"]
+    ROOT -->|"3.e5"| ADVANCE["Advance Variation"]
+    ROOT -->|"3.exd5 cxd5"| EXCH["After 3.exd5 cxd5"]
+    ROOT -->|"3.f3"| FANTASY["Fantasy Variation"]
+
+    NE4 -->|"4...Bf5"| CLASSICAL["Classical Variation"]
+    NE4 -->|"4...Nf6 5.Nxf6+"| TWO_KN["Two Knights Variation"]
+
+    EXCH -->|"4.Bd3"| EXCHANGE["Exchange Variation"]
+    EXCH -->|"4.c4"| PANOV["Panov-Botvinnik Attack\n(IQP positions)"]
+
+    ADVANCE --> SHORT["Short System: 4.Nf3 5.Be2"]
+
+    CLASSICAL --> CLASS_MAIN["5.Ng3 Bg6 6.h4 h6\nStrategic manoeuvring"]
+```
+
 ---
 
 ## Classical Variation (4...Bf5)

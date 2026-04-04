@@ -42,6 +42,16 @@ These share characteristics with [king and pawn endings](king-pawn-endings.md):
 | Pawns on one side of the board | Pawns on both flanks (long-range coverage) |
 | Positions with strong outposts | Positions without fixed pawn structures |
 
+```mermaid
+flowchart TD
+    Start["Knight vs Bishop:\nWho stands better?"] --> Structure{"Pawn structure?"}
+    Structure -->|"Closed / locked"| Knight["Knight is better\nBishop blocked by\nown pawns"]
+    Structure -->|"Open / fluid"| Bishop["Bishop is better\nLong diagonals\ndominate"]
+    Start --> Flanks{"Pawns on\nboth flanks?"}
+    Flanks -->|"One side only"| Knight2["Knight is fine\nCan cover one flank"]
+    Flanks -->|"Both sides"| Bishop2["Bishop is better\nCovers both flanks\nat long range"]
+```
+
 See [Middlegame — Knight vs Bishop](../middlegame/piece-activity.md) for a detailed comparison.
 
 ---

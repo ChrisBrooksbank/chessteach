@@ -25,6 +25,22 @@ His [rook endgame](../endgames/rook-endings.md) play is particularly renowned:
 
 ---
 
+## Carlsen's Endgame Method
+
+```mermaid
+graph TD
+    A["Reach a slightly better endgame<br/>Tiny imbalance is enough"] --> B["Apply constant pressure<br/>50-80 moves of 'torture'"]
+    B --> C["Pose practical problems<br/>Not the engine-best move,<br/>but the hardest to face"]
+    C --> D{"Opponent cracks<br/>under time pressure?"}
+    D -- Yes --> E["Convert the advantage<br/>Precise technique"]
+    D -- No --> F["Maintain pressure<br/>Reset the cycle"]
+    F --> B
+
+    style A fill:#2980b9,color:#fff
+    style C fill:#e67e22,color:#fff
+    style E fill:#27ae60,color:#fff
+```
+
 ## World Championship Examples
 
 ### vs Anand, 2013 (Game 6)

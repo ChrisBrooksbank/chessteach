@@ -6,6 +6,35 @@ The most popular and theoretically important response to 1.e4. Black fights for 
 
 **See also:** [French Defense](french-defense.md) | [Caro-Kann](caro-kann.md) | [Middlegame — Pawn Structures](../../middlegame/pawn-structures.md) | [Tactics Index](../../tactics/index.md)
 
+### Variation Tree
+
+```mermaid
+flowchart TD
+    ROOT["1.e4 c5"]
+    ROOT -->|"2.Nf3 + 3.d4"| OPEN["Open Sicilian\n4.Nxd4"]
+    ROOT -->|"2.c3"| ALAPIN["Alapin Variation"]
+    ROOT -->|"2.Nc3"| NC3["2.Nc3"]
+    ROOT -->|"2.Nf3 d6 3.Bb5+"| MOSCOW["Moscow Variation"]
+
+    NC3 -->|"3.f4"| GRAND_PRIX["Grand Prix Attack"]
+    NC3 -->|"3.g3"| CLOSED_SIC["Closed Sicilian"]
+
+    OPEN -->|"5...a6"| NAJDORF["Najdorf"]
+    OPEN -->|"5...g6"| DRAGON["Dragon"]
+    OPEN -->|"5...e5"| SVESH["Sveshnikov"]
+    OPEN -->|"5...e6"| SCHEV["Scheveningen"]
+    OPEN -->|"5...Nc6"| CLASSICAL["Classical Sicilian"]
+    OPEN -->|"4...Nc6"| TAIMANOV["Taimanov"]
+    OPEN -->|"4...a6"| KAN["Kan"]
+    OPEN -->|"4...g6"| ACC_DRAGON["Accelerated Dragon"]
+
+    NAJDORF -->|"6.Bg5"| NAJ_CLASSICAL["Classical / Poisoned Pawn"]
+    NAJDORF -->|"6.Be3 / 6.f3"| ENGLISH_ATK["English Attack"]
+    NAJDORF -->|"6.Be2"| NAJ_POS["Positional Line"]
+
+    DRAGON -->|"6.Be3 ...O-O-O"| YUGOSLAV["Yugoslav Attack"]
+```
+
 ---
 
 ## The Open Sicilian (2.Nf3 and 3.d4)

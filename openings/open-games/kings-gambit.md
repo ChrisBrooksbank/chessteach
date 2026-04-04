@@ -6,6 +6,29 @@ The most romantic opening in chess. White sacrifices the f-pawn to open the f-fi
 
 **See also:** [Italian Game](italian-game.md) | [Tactics — Sacrifices](../../tactics/sacrifices.md) | [Famous Games — The Immortal Game](../../famous-games/immortal-game.md)
 
+### Variation Tree
+
+```mermaid
+flowchart TD
+    ROOT["1.e4 e5 2.f4"]
+    ROOT -->|"2...exf4"| ACCEPTED["King's Gambit Accepted"]
+    ROOT -->|"2...Bc5"| DECLINED_BC["Declined: 2...Bc5"]
+    ROOT -->|"2...d5"| FALKBEER["Falkbeer Counter-Gambit"]
+
+    ACCEPTED -->|"3.Nf3"| KNG["King's Knight Gambit"]
+    ACCEPTED -->|"3.Bc4"| BISHOP_G["Bishop's Gambit"]
+
+    KNG -->|"3...g5"| G5["3...g5 — Hold the pawn"]
+    KNG -->|"3...d6"| FISCHER_D["Fischer Defense"]
+    KNG -->|"3...d5"| MODERN_D["Modern Defense"]
+    KNG -->|"3...Be7"| CUNNINGHAM["Cunningham Defense"]
+
+    G5 -->|"4.h4 g4 5.Ne5"| KIESERITZKY["Kieseritzky Gambit"]
+    G5 -->|"4.Bc4 g4 5.O-O"| MUZIO["Muzio Gambit\n(knight sacrifice)"]
+
+    FALKBEER --> COUNTER["3.exd5 e4\nBlack seizes the centre"]
+```
+
 ---
 
 ## King's Gambit Accepted (2...exf4)

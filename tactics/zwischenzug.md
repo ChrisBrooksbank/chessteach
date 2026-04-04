@@ -6,6 +6,25 @@ A **zwischenzug** (German: "in-between move") is an unexpected move inserted in 
 
 ---
 
+## Decision Flowchart
+
+Before making the "obvious" recapture, run through this check:
+
+```mermaid
+flowchart TD
+    A["Opponent just captured your piece"] --> B{"STOP — before recapturing, ask:"}
+    B --> C{Is there a check I can give first?}
+    C -->|Yes| D{Does the check improve my position?}
+    D -->|Yes| E["Play the intermediate check! (Zwischenzug)
+    Then recapture later"]
+    D -->|No| F{Is there a capture elsewhere that's more valuable?}
+    C -->|No| F
+    F -->|Yes| G["Play the intermediate capture!"]
+    F -->|No| H{Is there a strong threat — e.g., threatening mate?}
+    H -->|Yes| I["Play the intermediate threat!"]
+    H -->|No| J["Recapture as expected"]
+```
+
 ## How It Works
 
 ```

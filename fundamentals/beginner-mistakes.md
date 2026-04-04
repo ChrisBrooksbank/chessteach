@@ -44,6 +44,24 @@ For each mistake, the fix is simple:
 - **In the endgame:** Activate the king, push passed pawns
 - **Always:** Study [tactics](../tactics/index.md)
 
+```mermaid
+flowchart TD
+    A["Before EVERY move"] --> B["What is my opponent\nthreatening?"]
+    B --> C{"Is there a\nthreat to handle?"}
+    C -- "Yes" --> D["Address the threat\n(block, capture, or move)"]
+    C -- "No" --> E{"What phase\nam I in?"}
+    D --> E
+    E -- "Opening" --> F["Develop a piece /\nControl centre / Castle"]
+    E -- "Middlegame" --> G["Follow your plan /\nUse ALL your pieces /\nAttack weaknesses"]
+    E -- "Endgame" --> H["Activate king /\nPush passed pawns /\nSimplify if ahead"]
+    F --> I["Check: Does my move\nleave anything hanging?"]
+    G --> I
+    H --> I
+    I --> J["Play the move"]
+    style B fill:#fdd,stroke:#c00
+    style J fill:#dfd,stroke:#0a0
+```
+
 ---
 
 **Next:** [Time Management](time-management.md) | **Back to:** [Fundamentals Index](index.md)

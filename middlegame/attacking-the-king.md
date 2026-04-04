@@ -30,6 +30,19 @@ Both sides storm the pawns toward the enemy king.
 Speed is everything — one tempo can decide who mates first.
 ```
 
+```mermaid
+flowchart TD
+    Castle{Where have both\nsides castled?}
+    Castle -->|Same side| SS[Pawn storm is risky\nYour own king is exposed]
+    Castle -->|Opposite sides| OS[Pawn storm is the\nprimary weapon]
+    SS --> SSP[Use piece attacks\nNot pawn storms]
+    OS --> Race[It is a race!\nSpeed is everything]
+    Race --> Push[Push pawns toward\nenemy king]
+    Race --> Open[Open files for\nyour rooks]
+    Push --> Open
+    Open --> Mate[Deliver the attack\nbefore opponent does]
+```
+
 ### Key Principles
 
 1. **Open files toward the enemy king** — push pawns to tear open the shield
@@ -56,6 +69,14 @@ Speed is everything — one tempo can decide who mates first.
 3. **Remove defenders:** Exchange or deflect the pieces protecting the king — see [Removing the Defender](../tactics/removing-the-defender.md)
 4. **Open lines:** If the h-file or g-file opens, pour rooks in
 
+```mermaid
+flowchart TD
+    P1[1. Aim pieces at the king\nBishop to bd3-h7 diagonal\nKnight to e5 or g5\nQueen ready for kingside] --> P2[2. Reach 3+ attackers\nRule of three]
+    P2 --> P3[3. Remove defenders\nExchange or deflect\nkey defensive pieces]
+    P3 --> P4[4. Open lines\nSacrifice or push pawns\nto open g/h files]
+    P4 --> P5[5. Pour in the heavy pieces\nRooks on open files\nQueen delivers the blow]
+```
+
 ### Typical Piece Manoeuvres
 
 - **Knight lift:** Nf3–h2–g4 (or Nf3–d2–f1–g3–h5)
@@ -81,6 +102,24 @@ Speed is everything — one tempo can decide who mates first.
 2. **The opponent's defences are solid** — all pawns intact, defenders in place
 3. **Your own king is weak** — a counterattack may be more dangerous
 4. **The position is closed** — no lines to open toward the king
+
+### Should I Attack? Decision Flowchart
+
+```mermaid
+flowchart TD
+    Start[Considering a\nking attack] --> Q1{Is the opponent's\npawn shield weakened?}
+    Q1 -->|No| Q1b{Can you weaken it\nwith a pawn storm\nor sacrifice?}
+    Q1b -->|No| Wait[Attack is premature\nImprove your position first]
+    Q1b -->|Yes| Q2
+    Q1 -->|Yes| Q2{Do you have 3+\npieces aimed at the king?}
+    Q2 -->|No| Buildup[Build up first\nRedeploy more pieces\ntoward the kingside]
+    Q2 -->|Yes| Q3{Is your own\nking safe?}
+    Q3 -->|No| Shore[Shore up your\nown king first\nor risk counterattack]
+    Q3 -->|Yes| Q4{Are there open lines\ntoward the enemy king?}
+    Q4 -->|No| Open[Open lines first\nPawn break or sacrifice]
+    Q4 -->|Yes| Attack[Launch the attack!]
+    Open --> Attack
+```
 
 ---
 

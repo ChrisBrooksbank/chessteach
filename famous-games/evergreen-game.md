@@ -20,6 +20,22 @@ Another Anderssen masterpiece — perhaps more impressive than the Immortal Game
 
 ---
 
+## Game Flow
+
+```mermaid
+graph TD
+    A["Moves 1-7: Evans Gambit<br/>White sacrifices b-pawn for development"] --> B["Moves 8-18: Building the Attack<br/>White gains central control,<br/>Black's king stuck in centre"]
+    B --> C["19.Rad1! — Quiet preparation<br/>Last piece joins the fight"]
+    C --> D["20.Rxe7+! — Rook sacrifice<br/>Smashes open Black's king cover"]
+    D --> E["21.Qxd7+!! — Queen sacrifice<br/>Clears the path for bishops"]
+    E --> F["24.Bxe7# — Checkmate<br/>Criss-cross bishop mate"]
+
+    style C fill:#2980b9,color:#fff
+    style D fill:#e67e22,color:#fff
+    style E fill:#c0392b,color:#fff
+    style F fill:#27ae60,color:#fff
+```
+
 ## Key Moments
 
 ### 19.Rad1! — Quiet before the storm

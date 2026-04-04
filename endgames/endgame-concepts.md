@@ -24,6 +24,15 @@ Key concepts that apply across all endgame types.
 | Rare | [Rook endings](rook-endings.md) (rooks can make waiting moves) |
 | Very rare | Middlegames (famous example: Sämisch vs Nimzowitsch, 1923) |
 
+```mermaid
+flowchart TD
+    A["Want to create zugzwang?"] --> B{"What type of ending?"}
+    B -->|"King & Pawn"| C["Use triangulation\nto pass the move"]
+    B -->|"Knight"| D["Exploit colour-changing:\nknight MUST change\nsquare colour each move"]
+    B -->|"Rook"| E["Very difficult:\nrooks can make\nwaiting moves along\nranks/files"]
+    B -->|"Bishop"| F["Manoeuvre bishop\nto lose a tempo\n(change diagonal length)"]
+```
+
 ### Creating Zugzwang
 
 Use **triangulation** (in king endings) or manoeuvring to "pass the move" to the opponent. See [King & Pawn Endings — Triangulation](king-pawn-endings.md).
@@ -58,6 +67,17 @@ Stalemate is the primary drawing resource for the weaker side.
 3. **Rook sacrifice on the queening square** — after the opponent promotes, stalemate results
 4. **Deliberate self-entombment** — manoeuvre the king to a position with no legal moves
 
+```mermaid
+flowchart TD
+    Losing["You're losing:\nLook for stalemate!"] --> Resource{"Available\nresource?"}
+    Resource -->|"Have material\nto sacrifice"| Sac["Sacrifice everything\nto leave king with\nno legal moves"]
+    Resource -->|"Rook pawn\nposition"| Corner["Head for the corner\nwith the king"]
+    Resource -->|"Opponent is\nabout to promote"| RookSac["Rook sacrifice on\nthe queening square"]
+    Resource -->|"Can self-entomb"| Entomb["Manoeuvre king to\na position with\nno legal moves"]
+
+    Winning["You're winning:\nCheck for stalemate!"] --> Before["BEFORE every move, ask:\nDoes this leave the\nopponent with zero\nlegal moves?"]
+```
+
 ### Practical Advice
 
 When winning, **always check for stalemate** before making your move. When losing, **always look for stalemate** as a saving resource.
@@ -73,6 +93,15 @@ A position where the weaker side creates an impregnable defensive configuration 
 - **Rook vs bishop (blocked position):** The rook cannot penetrate
 - **Queen vs rook + well-placed pawn:** The rook + pawn create an unbreakable setup
 - **Opposite-coloured bishops:** A natural fortress on one colour complex — see [Bishop Endings](bishop-endings.md)
+
+```mermaid
+flowchart TD
+    Down["You're down material:\nCan you build a fortress?"] --> Type{"Position type?"}
+    Type -->|"R vs B"| RvB["Block the position\nRook cannot penetrate\nlocked pawns"]
+    Type -->|"Q vs R+P"| QvRP["Place rook + pawn in\nan unbreakable setup\nnear the king"]
+    Type -->|"Opposite-colour\nbishops"| OCB["Blockade all pawns\non your bishop's colour\nNatural fortress"]
+    Type -->|"Other"| Other["Look for a setup where\nthe opponent cannot\nmake progress despite\nmaterial advantage"]
+```
 
 **Principle:** Fortresses work because the stronger side **cannot make progress**. Material advantage becomes meaningless due to positional factors.
 

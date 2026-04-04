@@ -4,6 +4,19 @@ King and pawn endgames are the foundation of all endgame knowledge. The principl
 
 **See also:** [Endgame Concepts](endgame-concepts.md) | [Rook Endings](rook-endings.md) | [Fundamentals — Pawn Structures](../fundamentals/pawn-structure-basics.md)
 
+```mermaid
+flowchart TD
+    Start["King & Pawn Ending:\nWhat's the situation?"] --> Passed{"Do you have\na passed pawn?"}
+    Passed -->|Yes| CanPromote{"Can your king\nreach a key square?"}
+    CanPromote -->|Yes| Win["Win: Escort the\npawn to promotion"]
+    CanPromote -->|No| Opposition["Use opposition /\ntriangulation to\ngain key square"]
+    Passed -->|No| Majority{"Do you have\na pawn majority?"}
+    Majority -->|Yes| Breakthrough["Look for a\nbreakthrough sacrifice\nto create a passer"]
+    Majority -->|No| Outside{"Outside passed\npawn possible?"}
+    Outside -->|Yes| Decoy["Decoy opponent's king\nwith outside passer,\ninvade on other wing"]
+    Outside -->|No| Defend["Defend: Use opposition\nand hold the draw"]
+```
+
 ---
 
 ## Opposition

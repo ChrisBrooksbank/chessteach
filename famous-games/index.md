@@ -2,6 +2,27 @@
 
 Landmark games that every chess player should study. Each game illustrates fundamental principles brought to life at the highest level.
 
+## Timeline
+
+```mermaid
+timeline
+    title Famous Games Through the Ages
+    1851 : The Immortal Game
+         : Anderssen vs Kieseritzky
+    1852 : The Evergreen Game
+         : Anderssen vs Dufresne
+    1858 : The Opera Game
+         : Morphy vs Duke & Count
+    1956 : Game of the Century
+         : Fischer vs Byrne
+    1997 : Deep Blue vs Kasparov
+         : Machine beats Man
+    1999 : Kasparov vs Topalov
+         : Greatest modern attack
+    2013-2021 : Carlsen's Endgame Era
+              : Redefining the grind
+```
+
 ## The Games
 
 - [The Immortal Game](immortal-game.md) — Anderssen vs Kieseritzky, 1851

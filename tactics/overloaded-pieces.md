@@ -8,6 +8,18 @@ A piece is **overloaded** (or **overworked**) when it has too many defensive res
 
 ## How It Works
 
+```mermaid
+flowchart TD
+    A["Identify a piece with 2+ defensive duties"] --> B["Attack one of the things it defends"]
+    B --> C{How does the defender respond?}
+    C -->|"Defender handles your threat
+    (abandons other duty)"| D["Exploit the abandoned defence"]
+    C -->|"Defender ignores your threat"| E["Win the attacked target directly"]
+    C -->|"Defender tries a counter-threat"| F["Calculate — is their threat bigger?"]
+    F -->|No| B
+    F -->|Yes| G["Reassess — the piece may not be truly overloaded"]
+```
+
 1. Identify a piece that is performing **two or more** defensive duties simultaneously
 2. Attack one of the things it's defending
 3. When it responds to your threat, the other duty is abandoned

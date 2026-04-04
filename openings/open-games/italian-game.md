@@ -6,6 +6,29 @@ One of the oldest recorded openings, dating to the 16th century. White develops 
 
 **See also:** [Ruy Lopez](ruy-lopez.md) | [Scotch Game](scotch-game.md) | [King's Gambit](kings-gambit.md) | [Fundamentals — Development](../../fundamentals/development.md)
 
+### Variation Tree
+
+```mermaid
+flowchart TD
+    ROOT["1.e4 e5 2.Nf3 Nc6 3.Bc4"]
+    ROOT -->|"3...Bc5"| BC5["3...Bc5"]
+    ROOT -->|"3...Nf6"| TWO["Two Knights Defense"]
+
+    BC5 -->|"4.c3"| GP["Giuoco Piano"]
+    BC5 -->|"4.b4"| EVANS["Evans Gambit"]
+
+    GP --> MAIN_GP["5.d4 exd4 6.cxd4 Bb4+\nClassical Main Line"]
+
+    EVANS --> ACCEPTED["4...Bxb4 5.c3 Ba5 6.d4\nSharp attacking play"]
+
+    TWO -->|"4.Ng5"| NG5["4.Ng5 — Sharp"]
+    TWO -->|"4.d3"| QUIET["4.d3 — Quiet Italian"]
+
+    NG5 -->|"4...d5 5.exd5 Na5"| MODERN["Modern Main Line"]
+    NG5 -->|"4...d5 5.exd5 Nxd5?!"| FRIED["Fried Liver Attack"]
+    NG5 -->|"4...Bc5!?"| TRAX["Traxler Counterattack"]
+```
+
 ---
 
 ## Giuoco Piano (3...Bc5 4.c3)

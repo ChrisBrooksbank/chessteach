@@ -19,6 +19,26 @@ Pawns are the "soul of chess" (Philidor). The pawn structure is the skeleton tha
 | **Pawn majority** | More pawns on one side | Can create a passed pawn |
 | **Pawn islands** | Groups of connected pawns | Fewer = healthier |
 
+### Pawn Structure Relationships
+
+```mermaid
+flowchart TD
+    PS["Pawn Structure Concepts"] --> STR["Strengths"]
+    PS --> WEAK["Weaknesses"]
+    STR --> PP["Passed Pawn\n(no opposing pawns\nblock its advance)"]
+    STR --> CP["Connected Pawns\n(adjacent files,\nprotect each other)"]
+    STR --> PM["Pawn Majority\n(more pawns on one side\n→ can create a passer)"]
+    WEAK --> IP["Isolated Pawn\n(no friendly pawns\non adjacent files)"]
+    WEAK --> DP["Doubled Pawns\n(two pawns same file,\nweak mobility)"]
+    WEAK --> BP["Backward Pawn\n(can't advance,\nhole in front)"]
+    PP --> END["Endgame weapon:\npush to promote"]
+    CP --> MID["Middlegame asset:\nflexible, hard to attack"]
+    IP --> TGT["Target: opponent\nattacks the isolated pawn"]
+    BP --> TGT
+    style STR fill:#dfd,stroke:#0a0
+    style WEAK fill:#fdd,stroke:#c00
+```
+
 ---
 
 ## The Golden Rules

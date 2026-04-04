@@ -4,6 +4,19 @@ Rook endgames are the most common type and are notoriously difficult. Tartakower
 
 **See also:** [King & Pawn Endings](king-pawn-endings.md) | [Endgame Concepts](endgame-concepts.md) | [Famous Games — Carlsen's Endgames](../famous-games/carlsen-endgames.md)
 
+```mermaid
+flowchart TD
+    Start["Rook Ending:\nEvaluate the position"] --> Material{"Material\nbalance?"}
+    Material -->|"R+P vs R"| PawnRank{"Where is\nthe pawn?"}
+    PawnRank -->|"7th rank,\nking in front"| Lucena["Lucena Position\n→ Win with bridge-building"]
+    PawnRank -->|"5th rank\nor below"| Defense{"Can defender reach\nPhilidor setup?"}
+    Defense -->|Yes| Philidor["Philidor Position\n→ Draw with 3rd-rank defence"]
+    Defense -->|No| Convert["Advance pawn toward\nLucena position"]
+    Material -->|"Equal pawns"| Activity{"Is your\nrook active?"}
+    Activity -->|Yes| Press["Press the advantage:\nattack weak pawns,\ncut off the king"]
+    Activity -->|No| Activate["Priority: Activate the rook!\n(even at the cost of a pawn)"]
+```
+
 ---
 
 ## The Lucena Position (Winning)
@@ -94,6 +107,14 @@ The rook on a rank keeps the king cut off. Particularly powerful when the king i
 3. **Create a passed pawn** on the side where you have a majority
 4. **Don't rush** — rook endings require patience and precision
 5. **Know the Lucena and Philidor** — they are the north star for evaluation
+
+```mermaid
+flowchart LR
+    A["1. Activate\nyour rook"] --> B["2. Advance\nyour king"]
+    B --> C["3. Create a\npassed pawn"]
+    C --> D["4. Apply Tarrasch's rule:\nrook behind the passer"]
+    D --> E["5. Aim for Lucena\n(or prevent it)"]
+```
 
 ---
 

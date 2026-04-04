@@ -4,6 +4,21 @@ Bishop endgames have unique characteristics determined by the bishops' colour co
 
 **See also:** [Middlegame — Good vs Bad Bishops](../middlegame/piece-activity.md) | [Endgame Concepts](endgame-concepts.md)
 
+```mermaid
+flowchart TD
+    Start["Bishop Ending:\nWhat type?"] --> Colour{"Same colour\nor opposite colour\nbishops?"}
+    Colour -->|"Same colour"| SCAdvantage{"Do you have\na pawn advantage?"}
+    SCAdvantage -->|Yes| SCWin["Realistic winning chances\nFix pawns on opponent's\nbishop colour"]
+    SCAdvantage -->|No| SCDraw["Likely drawn\nKeep bishop active"]
+    Colour -->|"Opposite colour"| OCPawns{"Passed pawns\non both sides\nof the board?"}
+    OCPawns -->|Yes| OCWin["Winning chances exist\n(bishop can't cover both flanks)"]
+    OCPawns -->|No| OCDraw["Likely drawn\neven 2-3 pawns up!\nDefender blockades on\none colour complex"]
+    Start --> NoBishop{"Bishop vs Pawns\n(no opposing bishop)"}
+    NoBishop --> WrongColour{"Is it a rook pawn\nwith wrong-coloured\nbishop?"}
+    WrongColour -->|Yes| Dead["Dead draw\n(see Endgame Concepts)"]
+    WrongColour -->|No| Evaluate["Evaluate based on\npawn advancement\nand bishop position"]
+```
+
 ---
 
 ## Same-Coloured Bishop Endings
