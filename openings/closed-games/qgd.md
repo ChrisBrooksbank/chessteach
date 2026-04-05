@@ -4,7 +4,89 @@
 
 The cornerstone of classical chess. Black maintains the centre with ...e6, accepting a slightly cramped but very solid position. The QGD has been a battleground for world championships for over a century.
 
+**Position after 1.d4 d5 2.c4 e6 (Queen's Gambit Declined)**
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Pieces -->
+  <text x="22" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♜</text>
+  <text x="67" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♞</text>
+  <text x="112" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♝</text>
+  <text x="157" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♛</text>
+  <text x="202" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♚</text>
+  <text x="247" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♝</text>
+  <text x="292" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♞</text>
+  <text x="337" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♜</text>
+  <text x="22" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="67" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="112" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="247" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="292" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="337" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="202" y="123" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="157" y="168" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="112" y="213" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="157" y="213" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="22" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="67" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="202" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="247" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="292" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="337" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="22" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♖</text>
+  <text x="67" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♘</text>
+  <text x="112" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♗</text>
+  <text x="157" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♕</text>
+  <text x="202" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♔</text>
+  <text x="247" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♗</text>
+  <text x="292" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♘</text>
+  <text x="337" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♖</text>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w - - 0 1`
+
 **See also:** [Queen's Gambit Accepted](qga.md) | [Slav Defense](slav.md) | [Catalan](catalan.md) | [Middlegame — Pawn Structures](../../middlegame/pawn-structures.md)
+
+### Variation Tree
+
+```mermaid
+flowchart TD
+    ROOT["1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7"]
+    ROOT -->|"5.e3 O-O 6.Nf3 Nbd7"| ORTHODOX["Orthodox Defense"]
+    ROOT -->|"5.e3 O-O 6.Nf3 h6 7.Bh4 b6"| TARTAKOWER["Tartakower Variation\nBishop to b7"]
+    ROOT -->|"5.e3 O-O 6.Nf3 h6 7.Bh4 Ne4"| LASKER["Lasker Variation\nSimplify to equalize"]
+
+    ROOT2["1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7"]
+    ROOT2 -->|"5.Nf3 c6 6.e3 Qa5"| CAMBRIDGE["Cambridge Springs\nTactical pin on g5"]
+
+    ORTHODOX --> MINORITY["Plans: Minority Attack\nb4-b5 on queenside"]
+    LASKER --> SIMPLIFY["Trade pieces to\nneutralize cramped position"]
+```
 
 ---
 

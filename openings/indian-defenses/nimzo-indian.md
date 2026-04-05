@@ -4,7 +4,88 @@
 
 Named after Aron Nimzowitsch, who championed its ideas. Black pins the Nc3, preventing e4 and fighting for central control with pieces rather than pawns. One of the most respected and successful openings at all levels.
 
+**Position after 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 (Nimzo-Indian Defense)**
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Pieces -->
+  <text x="22" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♜</text>
+  <text x="67" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♞</text>
+  <text x="112" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♝</text>
+  <text x="157" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♛</text>
+  <text x="202" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♚</text>
+  <text x="337" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♜</text>
+  <text x="22" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="67" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="112" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="157" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="247" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="292" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="337" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="202" y="123" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="247" y="123" font-size="30" text-anchor="middle" font-family="sans-serif">♞</text>
+  <text x="67" y="213" font-size="30" text-anchor="middle" font-family="sans-serif">♝</text>
+  <text x="112" y="213" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="157" y="213" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="112" y="258" font-size="30" text-anchor="middle" font-family="sans-serif">♘</text>
+  <text x="22" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="67" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="202" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="247" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="292" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="337" y="303" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="22" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♖</text>
+  <text x="112" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♗</text>
+  <text x="157" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♕</text>
+  <text x="202" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♔</text>
+  <text x="247" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♗</text>
+  <text x="292" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♘</text>
+  <text x="337" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♖</text>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w - - 0 1`
+
 **See also:** [Queen's Indian](queens-indian.md) | [Bogo-Indian](bogo-indian.md) | [Queen's Gambit Declined](../closed-games/qgd.md) | [Middlegame — Piece Activity](../../middlegame/piece-activity.md)
+
+### Variation Tree
+
+```mermaid
+flowchart TD
+    ROOT["1.d4 Nf6 2.c4 e6 3.Nc3 Bb4"]
+    ROOT -->|"4.Qc2"| CLASSICAL["Classical Variation\nPrevents doubled c-pawns"]
+    ROOT -->|"4.e3"| RUBINSTEIN["Rubinstein Variation\nSolid centre, accepts doubled pawns"]
+    ROOT -->|"4.Bg5"| LENINGRAD["Leningrad Variation\nSharp, pins the knight"]
+    ROOT -->|"4.a3"| SAMISCH["Sämisch Variation\nForces ...Bxc3+, bishop pair"]
+
+    CLASSICAL --> CL_MAIN["5.a3 Bxc3+ 6.Qxc3 b6"]
+    RUBINSTEIN --> RUB_MAIN["5.Bd3 d5 6.Nf3 c5\nIQP positions possible"]
+    SAMISCH --> SAM_MAIN["4...Bxc3+ 5.bxc3 c5\nWhite: broad centre + bishops\nBlack: better structure"]
+```
 
 ---
 

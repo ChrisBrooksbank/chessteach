@@ -21,6 +21,69 @@ A square is an outpost if:
 
 In the [Sicilian Defense](../openings/semi-open/sicilian-defense.md), after White plays e5 and Black plays ...d6, the d5 square often becomes a permanent outpost for a White knight. Conversely, the d4 and e5 squares can be outposts for Black.
 
+**Diagram — Knight on a Powerful Outpost:**
+
+White's knight is cemented on d5, supported by the c4 pawn and immune to pawn attacks. It dominates the position, controlling key squares on both flanks.
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Highlight: d5 outpost -->
+  <rect x="135" y="135" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
+  <!-- Pieces -->
+  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
+  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
+  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="157" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="247" y="123" text-anchor="middle" font-size="32" font-family="serif">♞</text>
+  <text x="157" y="168" text-anchor="middle" font-size="32" font-family="serif">♘</text>
+  <text x="112" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="202" y="303" text-anchor="middle" font-size="32" font-family="serif">♗</text>
+  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="157" y="348" text-anchor="middle" font-size="32" font-family="serif">♕</text>
+  <text x="247" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `r2q1rk1/pp3ppp/3p1n2/3N4/2P5/8/PP2BPPP/R2Q1RK1 w - - 0 1`
+
+The Nd5 cannot be challenged by any Black pawn (no pawns on c- or e-files to play ...c6 or ...e6). It radiates influence across the board -- attacking b6, c7, e7, f6, and f4. This is the ideal knight outpost.
+
 ---
 
 ## Open Files & Diagonals
@@ -71,6 +134,72 @@ Classic example: In the [French Defense](../openings/semi-open/french-defense.md
 
 A bishop whose own pawns are on the **opposite colour** — leaving the diagonals clear.
 
+**Diagram — Good Bishop vs Bad Bishop:**
+
+A French Defense structure where Black's light-squared bishop on c8 is hemmed in by its own pawns on d5 and e6, while White's dark-squared bishop on g5 operates freely on open diagonals.
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Highlight: bad bishop c8 and good bishop g5 -->
+  <rect x="90" y="0" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
+  <rect x="270" y="135" width="45" height="45" fill="#4ecdc4" opacity="0.4"/>
+  <!-- Pieces -->
+  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="112" y="33" text-anchor="middle" font-size="32" font-family="serif">♝</text>
+  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
+  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
+  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="202" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="157" y="168" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="202" y="168" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="292" y="168" text-anchor="middle" font-size="32" font-family="serif">♗</text>
+  <text x="157" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="112" y="258" text-anchor="middle" font-size="32" font-family="serif">♘</text>
+  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="157" y="348" text-anchor="middle" font-size="32" font-family="serif">♕</text>
+  <text x="247" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `r1bq1rk1/pp3ppp/4p3/3pP1B1/3P4/2N5/PP3PPP/R2Q1RK1 w - - 0 1`
+
+Black's Bc8 is a classic "bad bishop" -- trapped behind its own pawns on e6 and d5, with no prospects. White's Bg5 pins down the kingside and has open diagonals. The contrast illustrates why pawn placement relative to your bishop matters so much.
+
 ### Strategy
 
 - **Place your pawns on the opposite colour from your bishop** to keep it active
@@ -93,19 +222,6 @@ A bishop whose own pawns are on the **opposite colour** — leaving the diagonal
 - **Positions with pawns on both flanks** — the bishop's long range covers both sides
 - **Endgames** (generally) — bishops coordinate better over distance
 
-```mermaid
-flowchart TD
-    Q[Knight or Bishop?] --> Pos{Is the position\nopen or closed?}
-    Pos -->|Closed / Blocked pawns| NF[Knight favoured]
-    Pos -->|Open / Clear diagonals| BF[Bishop favoured]
-    Q --> Pawns{Pawns on one\nflank or both?}
-    Pawns -->|One flank| NF2[Knight favoured\nBishop lacks scope]
-    Pawns -->|Both flanks| BF2[Bishop favoured\nLong range covers both sides]
-    Q --> Out{Are there secure\noutposts available?}
-    Out -->|Yes| NF3[Knight favoured\nDominates from outpost]
-    Out -->|No| BF3[Bishop favoured\nMore flexible]
-```
-
 ---
 
 ## Rook on the 7th Rank
@@ -115,6 +231,68 @@ A rook on the 7th rank (2nd rank for Black) is extremely powerful because:
 1. It attacks pawns from behind (most pawns are still on their original rank)
 2. It restricts the enemy king to the back rank
 3. **Two rooks on the 7th** ("pig on the 7th") is often a decisive advantage
+
+**Diagram — Rook Dominating an Open File and the 7th Rank:**
+
+White's rook has penetrated to the 7th rank via the open c-file, attacking Black's pawns from behind and restricting the king.
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Highlight: 7th rank domination -->
+  <rect x="90" y="45" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
+  <!-- Pieces -->
+  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
+  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="112" y="78" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="202" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="247" y="123" text-anchor="middle" font-size="32" font-family="serif">♞</text>
+  <text x="157" y="168" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="157" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="247" y="258" text-anchor="middle" font-size="32" font-family="serif">♘</text>
+  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="112" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="157" y="348" text-anchor="middle" font-size="32" font-family="serif">♕</text>
+  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `r4rk1/ppR2ppp/4pn2/3p4/3P4/5N2/PP3PPP/2RQ2K1 w - - 0 1`
+
+White's Rc7 attacks the a7 and b7 pawns while cutting off the Black king. The second rook on c1 is ready to double on the c-file or swing to the 7th as well. This is the kind of domination that rooks achieve on open files.
 
 ---
 
@@ -154,20 +332,6 @@ Having more space means your pieces have more room to manoeuvre. A space advanta
 - **Exchange pieces** to relieve the cramp
 - **Find a pawn break** to open lines and equalise space
 - **Use the compact position** — your pieces are close together and can defend efficiently
-
-```mermaid
-flowchart TD
-    Space[Space Imbalance] --> Side{Which side\nare you on?}
-    Side -->|More space| MS[You have the\nspace advantage]
-    Side -->|Less space| LS[You are cramped]
-    MS --> M1[Do not rush]
-    MS --> M2[Avoid exchanges]
-    MS --> M3[Play on the wing\nwhere you have more room]
-    MS --> M4[Prepare a pawn break\nto open position decisively]
-    LS --> L1[Exchange pieces\nto relieve cramp]
-    LS --> L2[Find a pawn break\nto equalise space]
-    LS --> L3[Use compact defence\npieces protect each other]
-```
 
 ---
 
@@ -236,21 +400,6 @@ Wilhelm Steinitz, the first World Champion, established that:
 3. **Determine candidate plans:** Based on the imbalances, what plans make sense?
 4. **Calculate concrete moves:** Check that your plan works tactically
 5. **Execute and reassess:** After each move, re-evaluate
-
-```mermaid
-flowchart TD
-    E[1. Evaluate the position] --> Factors{Consider all factors}
-    Factors --> Mat[Material]
-    Factors --> KS[King safety]
-    Factors --> PA[Piece activity]
-    Factors --> PSt[Pawn structure]
-    Factors --> Sp[Space]
-    Mat & KS & PA & PSt & Sp --> I[2. Identify imbalances\nWhat does each side have?]
-    I --> P[3. Determine candidate plans\nbased on the imbalances]
-    P --> C[4. Calculate concrete moves\nVerify tactics work]
-    C --> X[5. Execute and reassess\nRe-evaluate after each move]
-    X -->|Position changed| E
-```
 
 ---
 

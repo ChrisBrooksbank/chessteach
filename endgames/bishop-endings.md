@@ -32,6 +32,52 @@ When both sides have bishops on the same colour, the stronger side has genuine w
 3. With a pawn advantage, same-coloured bishops offer realistic winning chances
 4. The concept of [good vs bad bishop](../middlegame/piece-activity.md) is especially important here
 
+**Same-colour bishops — White's good bishop vs Black's bad bishop**
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Pieces -->
+  <text x="292" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♝</text>
+  <text x="337" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♚</text>
+  <text x="247" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="337" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="202" y="123" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="292" y="123" font-size="30" text-anchor="middle" font-family="sans-serif">♟</text>
+  <text x="202" y="168" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="247" y="213" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="157" y="258" font-size="30" text-anchor="middle" font-family="sans-serif">♗</text>
+  <text x="292" y="348" font-size="30" text-anchor="middle" font-family="sans-serif">♔</text>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `6bk/5p1p/4p1p1/4P3/5P2/3B4/8/6K1 w - - 0 1`
+
+White's bishop on d3 is active on light squares, while Black's bishop on g8 is hemmed in by its own pawns on e6, f7, and g6 — all fixed on light squares, the same colour as the bishop. This is the classic "bad bishop." White can manoeuvre the king to exploit the weak dark squares on Black's kingside.
+
 ---
 
 ## Opposite-Coloured Bishop Endings
@@ -63,6 +109,46 @@ Opposite-coloured bishops **favour the attacker** — the attacking bishop contr
 - **Bishop vs one pawn:** Usually drawn unless the pawn is very advanced and the bishop is far away or on the wrong colour
 - **Bishop vs two connected pawns:** Depends on advancement — two pawns on the 6th rank usually beat a lone bishop
 - A bishop cannot stop a rook pawn if it **doesn't control the promotion square** — see [Endgame Concepts — Wrong Bishop](endgame-concepts.md)
+
+**Wrong-coloured bishop + rook pawn — Drawn position**
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Pieces -->
+  <text x="337" y="33" font-size="30" text-anchor="middle" font-family="sans-serif">♚</text>
+  <text x="337" y="78" font-size="30" text-anchor="middle" font-family="sans-serif">♙</text>
+  <text x="292" y="168" font-size="30" text-anchor="middle" font-family="sans-serif">♔</text>
+  <text x="202" y="213" font-size="30" text-anchor="middle" font-family="sans-serif">♗</text>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `7k/7P/8/6K1/4B3/8/8/8 w - - 0 1`
+
+Despite White having bishop + pawn, this is a **dead draw**. The h8 promotion square is dark, but White's bishop on e4 is light-squared and can never control h8. Black's king simply stays on h8 and cannot be driven out.
 
 ---
 

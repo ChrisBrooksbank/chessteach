@@ -43,6 +43,73 @@ flowchart TD
     Open --> Mate[Deliver the attack\nbefore opponent does]
 ```
 
+**Diagram — Opposite-Side Castling Pawn Storm:**
+
+A Sicilian Dragon-type position. White has castled queenside and launched a kingside pawn storm with g4-g5. Black has castled kingside and is pushing queenside pawns. It is a race.
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Highlight: g5 pawn storm -->
+  <rect x="270" y="135" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
+  <!-- Pieces -->
+  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
+  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
+  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="202" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♝</text>
+  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="157" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="247" y="123" text-anchor="middle" font-size="32" font-family="serif">♞</text>
+  <text x="292" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="292" y="168" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="157" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="202" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="112" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="67" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
+  <text x="112" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="202" y="348" text-anchor="middle" font-size="32" font-family="serif">♗</text>
+  <text x="337" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <!-- Arrow: g5 attacking f6 -->
+  <defs><marker id="ah3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#d63031"/></marker></defs>
+  <line x1="292" y1="155" x2="255" y2="125" stroke="#d63031" stroke-width="3" marker-end="url(#ah3)"/>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `3q1rk1/pp2ppbp/3p1np1/6P1/3PP3/8/PPP2P1P/1KR1B2R w - - 0 1`
+
+White's g5 pawn attacks the Nf6 defender. After g5xf6, the g-file rips open toward Black's king. White's rooks on d1 and h1 are ready to pour in. Meanwhile, Black's queenside pawns (a7, b7) are still far from White's king. White is winning the race.
+
 ### Key Principles
 
 1. **Open files toward the enemy king** — push pawns to tear open the shield
@@ -69,13 +136,71 @@ flowchart TD
 3. **Remove defenders:** Exchange or deflect the pieces protecting the king — see [Removing the Defender](../tactics/removing-the-defender.md)
 4. **Open lines:** If the h-file or g-file opens, pour rooks in
 
-```mermaid
-flowchart TD
-    P1[1. Aim pieces at the king\nBishop to bd3-h7 diagonal\nKnight to e5 or g5\nQueen ready for kingside] --> P2[2. Reach 3+ attackers\nRule of three]
-    P2 --> P3[3. Remove defenders\nExchange or deflect\nkey defensive pieces]
-    P3 --> P4[4. Open lines\nSacrifice or push pawns\nto open g/h files]
-    P4 --> P5[5. Pour in the heavy pieces\nRooks on open files\nQueen delivers the blow]
-```
+**Diagram — Classic Piece Attack on the Castled King:**
+
+White has built a textbook kingside attack. The bishop eyes h7, the knight is ready to leap to g5, and the queen can swing to h5. Black's king is about to face a Greek Gift sacrifice (Bxh7+).
+
+<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <!-- Highlight: h7 target square -->
+  <rect x="315" y="45" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
+  <!-- Pieces -->
+  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="112" y="33" text-anchor="middle" font-size="32" font-family="serif">♝</text>
+  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
+  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
+  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="157" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
+  <text x="157" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="157" y="258" text-anchor="middle" font-size="32" font-family="serif">♗</text>
+  <text x="247" y="258" text-anchor="middle" font-size="32" font-family="serif">♘</text>
+  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="202" y="303" text-anchor="middle" font-size="32" font-family="serif">♕</text>
+  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="247" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
+  <!-- Arrow: Bd3 aims at h7 -->
+  <defs><marker id="ah4" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#d63031"/></marker></defs>
+  <line x1="170" y1="248" x2="325" y2="83" stroke="#d63031" stroke-width="3" marker-end="url(#ah4)"/>
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
+</svg>
+
+> **FEN:** `r1bq1rk1/pp3ppp/3p4/8/3P4/3B1N2/PP2QPPP/R4RK1 w - - 0 1`
+
+White plays Bxh7+! Kxh7, Ng5+ Kg8 (or Kg6), Qh5 with a devastating attack. The bishop on d3 aims at h7, the Nf3 can reach g5 in one move, and the Qe2 is poised to jump to h5. This is the classic three-piece attacking setup.
 
 ### Typical Piece Manoeuvres
 

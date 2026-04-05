@@ -16,15 +16,6 @@ A structured approach to chess improvement, applicable at every level.
 | Game Analysis | 15–20% | Analyse your own games — find your weaknesses |
 | [Strategic Concepts](../middlegame/index.md) | 10% | Study annotated master games |
 
-```mermaid
-pie title Recommended Study Time
-    "Tactics" : 35
-    "Endgames" : 22
-    "Openings" : 18
-    "Game Analysis" : 15
-    "Strategic Concepts" : 10
-```
-
 ---
 
 ## Tactics Training
@@ -43,16 +34,6 @@ pie title Recommended Study Time
 - Then [key theoretical positions](../endgames/rook-endings.md) (Lucena, Philidor)
 - Endgame knowledge is **cumulative and permanent**
 - Priority: King & pawn → Rook endings → Bishop/Knight → Queen
-
-```mermaid
-flowchart LR
-    A["Basic Checkmates\n(K+Q, K+R)"] --> B["King & Pawn\nEndgames"]
-    B --> C["Rook Endings\n(Lucena, Philidor)"]
-    C --> D["Bishop & Knight\nEndgames"]
-    D --> E["Queen Endings"]
-    style A fill:#dfd,stroke:#0a0
-    style E fill:#e8f0fe,stroke:#4285f4
-```
 
 ---
 
@@ -74,21 +55,6 @@ flowchart LR
 3. Find critical moments, mistakes, and missed opportunities
 4. Then check with an engine to see what you missed
 5. Note patterns and recurring errors
-
-```mermaid
-flowchart TD
-    A["Play a game\n(15+ min time control)"] --> B["Analyse yourself\n(no engine!)"]
-    B --> C["Find critical moments\nand mistakes"]
-    C --> D["Check with engine"]
-    D --> E["Note patterns and\nrecurring errors"]
-    E --> F{"Same mistake\nrepeating?"}
-    F -- "Yes" --> G["Target that weakness\nin study sessions"]
-    F -- "No" --> H["Play another game"]
-    G --> H
-    H --> A
-    style B fill:#fef7e0,stroke:#f9ab00
-    style G fill:#fdd,stroke:#c00
-```
 
 ---
 

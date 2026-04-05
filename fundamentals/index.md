@@ -18,16 +18,3 @@ Core principles every chess player should know. Start here if you're new to ches
 ---
 
 **Recommended path:** Piece Values → Development → Centre Control → King Safety → Pawn Structure → then explore [Tactics](../tactics/index.md)
-
-```mermaid
-flowchart LR
-    A["Piece Values"] --> B["Development"]
-    B --> C["Centre Control"]
-    C --> D["King Safety"]
-    D --> E["Pawn Structure"]
-    E --> F["Phases of the Game"]
-    F --> G["Notation"]
-    G --> H["How to Study"]
-    H --> I(("Tactics ↗"))
-    style I fill:#f9f,stroke:#333,stroke-width:2px
-```
