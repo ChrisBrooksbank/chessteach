@@ -52,62 +52,7 @@ A pawn on d4 (or d5) with no friendly pawns on the c- or e-files.
 
 A classic IQP middlegame from a Queen's Gambit Accepted. White has an isolated d4 pawn but active pieces and open c- and e-files. Black aims to blockade on d5.
 
-<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
-  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
-  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
-  <!-- Highlight: IQP on d4 -->
-  <rect x="135" y="180" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <!-- Highlight: blockade square d5 -->
-  <rect x="135" y="135" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <!-- Pieces -->
-  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
-  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
-  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="202" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="157" y="168" text-anchor="middle" font-size="32" font-family="serif">♞</text>
-  <text x="157" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="247" y="258" text-anchor="middle" font-size="32" font-family="serif">♘</text>
-  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="112" y="348" text-anchor="middle" font-size="32" font-family="serif">♗</text>
-  <text x="157" y="348" text-anchor="middle" font-size="32" font-family="serif">♕</text>
-  <text x="247" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
-  <!-- Coordinates -->
-  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
-  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
-  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
-  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
-  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
-  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
-  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
-  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
-  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
-  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
-  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
-  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
-  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
-  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
-  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
-  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
-</svg>
+![Diagram — Typical IQP Position](../images/middlegame/pawn-structures.svg)
 
 > **FEN:** `r2q1rk1/pp3ppp/4p3/3n4/3P4/5N2/PP3PPP/R1BQ1RK1 w - - 0 1`
 
@@ -148,62 +93,7 @@ Two connected pawns on the 4th rank (typically c4 and d4) without support from o
 
 White has hanging pawns on c4 and d4. Black is pressuring both pawns, aiming to force one to advance.
 
-<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
-  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
-  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
-  <!-- Highlight: hanging pawns c4 and d4 -->
-  <rect x="90" y="180" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <rect x="135" y="180" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <!-- Pieces -->
-  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
-  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
-  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="202" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="247" y="123" text-anchor="middle" font-size="32" font-family="serif">♝</text>
-  <text x="112" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="157" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="247" y="258" text-anchor="middle" font-size="32" font-family="serif">♘</text>
-  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="112" y="348" text-anchor="middle" font-size="32" font-family="serif">♗</text>
-  <text x="157" y="348" text-anchor="middle" font-size="32" font-family="serif">♕</text>
-  <text x="247" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
-  <!-- Coordinates -->
-  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
-  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
-  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
-  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
-  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
-  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
-  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
-  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
-  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
-  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
-  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
-  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
-  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
-  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
-  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
-  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
-</svg>
+![Diagram — Hanging Pawns under Pressure](../images/middlegame/pawn-structures-2.svg)
 
 > **FEN:** `r2q1rk1/pp3ppp/4pb2/8/2PP4/5N2/PP3PPP/R1BQ1RK1 w - - 0 1`
 
@@ -245,70 +135,7 @@ The base (rear pawn) is the weakest link. Black should play ...c5 to attack d4. 
 
 A typical French Defense position with interlocked pawn chains. White's chain runs d4-e5; Black's runs d5-e6. Black will target the base at d4 with ...c5.
 
-<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
-  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
-  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
-  <!-- Highlight: pawn chain d4-e5 (White) and c5-d5-e6 (Black) -->
-  <rect x="135" y="180" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <rect x="180" y="135" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <!-- Pieces -->
-  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="112" y="33" text-anchor="middle" font-size="32" font-family="serif">♝</text>
-  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
-  <text x="202" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
-  <text x="337" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="157" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="202" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="112" y="168" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="157" y="168" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="202" y="168" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="157" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="112" y="258" text-anchor="middle" font-size="32" font-family="serif">♘</text>
-  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="112" y="348" text-anchor="middle" font-size="32" font-family="serif">♗</text>
-  <text x="157" y="348" text-anchor="middle" font-size="32" font-family="serif">♕</text>
-  <text x="202" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
-  <text x="247" y="348" text-anchor="middle" font-size="32" font-family="serif">♗</text>
-  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♘</text>
-  <text x="337" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <!-- Arrow: ...c5 attacking d4 base -->
-  <defs><marker id="ah1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#d63031"/></marker></defs>
-  <line x1="112" y1="168" x2="145" y2="205" stroke="#d63031" stroke-width="3" marker-end="url(#ah1)"/>
-  <!-- Coordinates -->
-  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
-  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
-  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
-  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
-  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
-  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
-  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
-  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
-  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
-  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
-  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
-  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
-  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
-  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
-  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
-  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
-</svg>
+![Diagram — French Defense Pawn Chain](../images/middlegame/pawn-structures-3.svg)
 
 > **FEN:** `r1bqk2r/pp3ppp/3pp3/2ppP3/3P4/2N5/PP3PPP/R1BQKBNR w - - 0 1`
 
@@ -334,59 +161,7 @@ A pawn that cannot advance because the square in front is controlled by an enemy
 
 A Sicilian middlegame where Black has a backward pawn on d6. White occupies the d5 outpost and pressures d6 down the half-open d-file.
 
-<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
-  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
-  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
-  <!-- Highlight: backward pawn d6 and outpost d5 -->
-  <rect x="135" y="90" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <rect x="135" y="135" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <!-- Pieces -->
-  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
-  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
-  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="157" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="247" y="123" text-anchor="middle" font-size="32" font-family="serif">♞</text>
-  <text x="157" y="168" text-anchor="middle" font-size="32" font-family="serif">♘</text>
-  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="67" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="157" y="348" text-anchor="middle" font-size="32" font-family="serif">♕</text>
-  <text x="247" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
-  <!-- Coordinates -->
-  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
-  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
-  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
-  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
-  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
-  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
-  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
-  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
-  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
-  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
-  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
-  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
-  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
-  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
-  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
-  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
-</svg>
+![Diagram — Backward Pawn on d6](../images/middlegame/pawn-structures-4.svg)
 
 > **FEN:** `r2q1rk1/pp3ppp/3p1n2/3N4/8/8/PP3PPP/R2Q1RK1 w - - 0 1`
 
@@ -438,63 +213,7 @@ When you have **fewer** pawns on a wing, you can advance them to attack the oppo
 
 White has two queenside pawns (a2, b4) advancing against Black's three (a7, b7, c6). After b5, White creates a weakness on c6 or an isolated pawn on d5.
 
-<svg viewBox="0 0 390 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
-  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
-  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/><rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
-  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/><rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
-  <!-- Highlight: b4 pawn advancing and target c6 -->
-  <rect x="45" y="180" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <rect x="90" y="90" width="45" height="45" fill="#ff6b6b" opacity="0.4"/>
-  <!-- Pieces -->
-  <text x="22" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="157" y="33" text-anchor="middle" font-size="32" font-family="serif">♛</text>
-  <text x="247" y="33" text-anchor="middle" font-size="32" font-family="serif">♜</text>
-  <text x="292" y="33" text-anchor="middle" font-size="32" font-family="serif">♚</text>
-  <text x="22" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="67" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="247" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="292" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="337" y="78" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="112" y="123" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="247" y="123" text-anchor="middle" font-size="32" font-family="serif">♞</text>
-  <text x="157" y="168" text-anchor="middle" font-size="32" font-family="serif">♟</text>
-  <text x="67" y="213" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="112" y="258" text-anchor="middle" font-size="32" font-family="serif">♘</text>
-  <text x="22" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="247" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="292" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="337" y="303" text-anchor="middle" font-size="32" font-family="serif">♙</text>
-  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="157" y="348" text-anchor="middle" font-size="32" font-family="serif">♕</text>
-  <text x="247" y="348" text-anchor="middle" font-size="32" font-family="serif">♖</text>
-  <text x="292" y="348" text-anchor="middle" font-size="32" font-family="serif">♔</text>
-  <!-- Arrow: b4-b5 advance -->
-  <defs><marker id="ah2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#d63031"/></marker></defs>
-  <line x1="67" y1="200" x2="67" y2="175" stroke="#d63031" stroke-width="3" marker-end="url(#ah2)"/>
-  <!-- Coordinates -->
-  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
-  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
-  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
-  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
-  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
-  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
-  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
-  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
-  <text x="370" y="33" font-size="11" fill="#666" font-family="sans-serif">8</text>
-  <text x="370" y="78" font-size="11" fill="#666" font-family="sans-serif">7</text>
-  <text x="370" y="123" font-size="11" fill="#666" font-family="sans-serif">6</text>
-  <text x="370" y="168" font-size="11" fill="#666" font-family="sans-serif">5</text>
-  <text x="370" y="213" font-size="11" fill="#666" font-family="sans-serif">4</text>
-  <text x="370" y="258" font-size="11" fill="#666" font-family="sans-serif">3</text>
-  <text x="370" y="303" font-size="11" fill="#666" font-family="sans-serif">2</text>
-  <text x="370" y="348" font-size="11" fill="#666" font-family="sans-serif">1</text>
-</svg>
+![Diagram — Minority Attack in the QGD](../images/middlegame/pawn-structures-5.svg)
 
 > **FEN:** `r2q1rk1/pp3ppp/2p2n2/3p4/1P6/2N5/P4PPP/R2Q1RK1 w - - 0 1`
 

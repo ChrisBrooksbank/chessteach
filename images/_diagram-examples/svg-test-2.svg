@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 360 400" xmlns="http://www.w3.org/2000/svg" style="max-width:400px">
+  <!-- Board background (dark squares) -->
+  <rect x="0" y="0" width="360" height="360" fill="#b58863"/>
+  <!-- Light squares -->
+  <rect x="0" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="90" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="180" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="270" y="0" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="135" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="225" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="315" y="45" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="90" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="180" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="270" y="90" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="135" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="225" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="315" y="135" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="90" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="180" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="270" y="180" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="135" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="225" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="315" y="225" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="0" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="90" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="180" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="270" y="270" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="45" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="135" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="225" y="315" width="45" height="45" fill="#f0d9b5"/>
+  <rect x="315" y="315" width="45" height="45" fill="#f0d9b5"/>
+
+  <!-- Highlighted pawn promotion square -->
+  <rect x="180" y="0" width="45" height="45" fill="#aaf0aa" opacity="0.4"/>
+
+  <!-- Arrow: Rook builds bridge Ra4→Re4 -->
+  <defs>
+    <marker id="arr2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2d7dd2"/>
+    </marker>
+  </defs>
+  <line x1="22" y1="167" x2="190" y2="167" stroke="#2d7dd2" stroke-width="3" stroke-dasharray="6,3" marker-end="url(#arr2)"/>
+
+  <!-- Pieces -->
+  <!-- White King on e8 -->
+  <text x="202" y="33" text-anchor="middle" font-size="32" font-family="serif">♔</text>
+  <!-- White Pawn on d7 -->
+  <text x="157" y="78" text-anchor="middle" font-size="32" font-family="serif">♙</text>
+  <!-- White Rook on a4 -->
+  <text x="22" y="168" text-anchor="middle" font-size="32" font-family="serif">♖</text>
+  <!-- Black Rook on a1 -->
+  <text x="22" y="348" text-anchor="middle" font-size="32" font-family="serif">♜</text>
+  <!-- Black King on d6 -->
+  <text x="157" y="123" text-anchor="middle" font-size="32" font-family="serif">♚</text>
+
+  <!-- Coordinates -->
+  <text x="22" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">a</text>
+  <text x="67" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">b</text>
+  <text x="112" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">c</text>
+  <text x="157" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">d</text>
+  <text x="202" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">e</text>
+  <text x="247" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">f</text>
+  <text x="292" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">g</text>
+  <text x="337" y="375" font-size="11" fill="#666" text-anchor="middle" font-family="sans-serif">h</text>
+  <text x="370" y="30" font-size="11" fill="#666" font-family="sans-serif">8</text>
+  <text x="370" y="75" font-size="11" fill="#666" font-family="sans-serif">7</text>
+  <text x="370" y="120" font-size="11" fill="#666" font-family="sans-serif">6</text>
+  <text x="370" y="165" font-size="11" fill="#666" font-family="sans-serif">5</text>
+  <text x="370" y="210" font-size="11" fill="#666" font-family="sans-serif">4</text>
+  <text x="370" y="255" font-size="11" fill="#666" font-family="sans-serif">3</text>
+  <text x="370" y="300" font-size="11" fill="#666" font-family="sans-serif">2</text>
+  <text x="370" y="345" font-size="11" fill="#666" font-family="sans-serif">1</text>
+
+  <!-- Caption -->
+  <text x="180" y="398" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif" font-style="italic">White plays Ra4 → Re4, building the "bridge"</text>
+</svg>
